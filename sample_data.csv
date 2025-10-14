@@ -1,0 +1,501 @@
+,Game ID,Date,Season,Minute,Opponent,Play Type,Shot Attempt,Shot Distance,Shot Outcome,xG,Number of Passes,Second Chance,Play Context,Location on Field,Outcome,Success,Win Impact,Assist Type,Final Third Entry,Play Speed,Player Involvement,Phase of Match
+1,1,2023-08-04,2024,69,Thunder FC,Pass Sequence,No,,,0.0,7,Yes,Fast Break,Right wing inside box,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Striker,Late
+2,1,2023-08-04,2024,85,Thunder FC,Counterattack,Yes,29,On Target,0.2,1,Yes,Set Piece,Right wing inside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Winger,Late
+3,1,2023-08-04,2024,46,Thunder FC,Counterattack,Yes,26,On Target,0.16,3,Yes,Fast Break,Right wing close to box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Defender,Middle
+4,1,2023-08-04,2024,49,Thunder FC,Shot Attempt,Yes,25,Missed,0.15,1,Yes,Open Play,Right wing outside box,Turnover,No,-1,Through Ball,No,Quick Attack,Midfielder,Middle
+5,1,2023-08-04,2024,73,Thunder FC,Shot Attempt,Yes,11,Saved by GK,0.22,3,No,Open Play,Right wing inside box,Turnover,No,-1,Cross,No,Slow Build-up,Defender,Late
+6,1,2023-08-04,2024,47,Thunder FC,Counterattack,Yes,9,Saved by GK,0.43,1,Yes,Open Play,Right wing close to box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Defender,Middle
+7,2,2023-08-05,2024,68,Phoenix United,Shot Attempt,Yes,22,Goal,0.15,1,No,Fast Break,Right wing outside box,Goal,Yes,3,None,No,Slow Build-up,Midfielder,Late
+8,2,2023-08-05,2024,59,Phoenix United,Pass Sequence,No,,,0.0,5,Yes,Fast Break,Central outside box,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Winger,Middle
+9,2,2023-08-05,2024,21,Phoenix United,Corner,Yes,29,Goal,0.14,2,Yes,Open Play,Right wing outside box,Goal,Yes,3,Cutback,Yes,Quick Attack,Midfielder,Early
+10,2,2023-08-05,2024,73,Phoenix United,Pass Sequence,No,,,0.0,2,No,Open Play,Right wing midfield,Retained Possession,Yes,1,Cross,Yes,Slow Build-up,Midfielder,Late
+11,2,2023-08-05,2024,34,Phoenix United,Corner,Yes,24,Saved by GK,0.19,3,Yes,Fast Break,Right wing inside box,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Striker,Middle
+12,2,2023-08-05,2024,32,Phoenix United,Counterattack,Yes,7,On Target,0.41,3,Yes,Fast Break,Left wing outside box,Saved by GK,Yes,2,None,Yes,Quick Attack,Midfielder,Middle
+13,3,2023-08-08,2024,5,Storm Rovers,Shot Attempt,Yes,7,Missed,0.48,2,Yes,Fast Break,Left wing inside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Defender,Early
+14,3,2023-08-08,2024,25,Storm Rovers,Pass Sequence,No,,,0.0,2,No,Set Piece,Central midfield,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Striker,Early
+15,3,2023-08-08,2024,8,Storm Rovers,Free Kick,Yes,28,On Target,0.17,1,Yes,Open Play,Left wing outside box,Saved by GK,Yes,2,Through Ball,Yes,Slow Build-up,Midfielder,Early
+16,3,2023-08-08,2024,36,Storm Rovers,Free Kick,Yes,12,Goal,0.23,3,Yes,Open Play,Right wing close to box,Goal,Yes,3,None,Yes,Quick Attack,Midfielder,Middle
+17,3,2023-08-08,2024,53,Storm Rovers,Free Kick,Yes,20,Missed,0.36,1,Yes,Set Piece,Central inside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Winger,Middle
+18,4,2023-08-09,2024,90,Eagle City,Corner,Yes,26,Saved by GK,0.07,2,Yes,Open Play,Left wing close to box,Goal,No,3,Cutback,Yes,Quick Attack,Defender,Late
+19,4,2023-08-09,2024,65,Eagle City,Corner,Yes,10,Goal,0.69,1,Yes,Open Play,Left wing close to box,Goal,Yes,3,None,Yes,Slow Build-up,Striker,Late
+20,4,2023-08-09,2024,73,Eagle City,Counterattack,Yes,23,Goal,0.14,2,No,Set Piece,Left wing outside box,Goal,Yes,3,Cutback,Yes,Slow Build-up,Defender,Late
+21,4,2023-08-09,2024,17,Eagle City,Shot Attempt,Yes,19,On Target,0.38,1,Yes,Set Piece,Left wing close to box,Saved by GK,Yes,2,None,Yes,Quick Attack,Winger,Early
+22,4,2023-08-09,2024,17,Eagle City,Shot Attempt,Yes,7,Missed,0.51,1,No,Fast Break,Right wing inside box,Turnover,No,-1,None,No,Quick Attack,Midfielder,Early
+23,4,2023-08-09,2024,34,Eagle City,Pass Sequence,No,,,0.0,2,Yes,Set Piece,Right wing inside box,Retained Possession,Yes,1,Cross,No,Quick Attack,Winger,Middle
+24,5,2023-08-24,2024,33,Lightning Athletic,Pass Sequence,No,,,0.0,2,No,Set Piece,Central inside box,Retained Possession,Yes,1,None,No,Quick Attack,Winger,Middle
+25,5,2023-08-24,2024,21,Lightning Athletic,Free Kick,Yes,22,Saved by GK,0.13,1,Yes,Fast Break,Left wing inside box,Goal,No,3,Cutback,Yes,Slow Build-up,Midfielder,Early
+26,5,2023-08-24,2024,6,Lightning Athletic,Shot Attempt,Yes,16,Goal,0.37,1,Yes,Fast Break,Central outside box,Goal,Yes,3,Cutback,No,Quick Attack,Midfielder,Early
+27,5,2023-08-24,2024,21,Lightning Athletic,Counterattack,Yes,18,Goal,0.15,2,No,Fast Break,Left wing outside box,Goal,Yes,3,Cutback,Yes,Quick Attack,Defender,Early
+28,5,2023-08-24,2024,5,Lightning Athletic,Free Kick,Yes,12,Missed,0.34,2,No,Set Piece,Left wing outside box,Turnover,No,-1,Cross,Yes,Quick Attack,Defender,Early
+29,5,2023-08-24,2024,43,Lightning Athletic,Shot Attempt,Yes,7,On Target,0.51,3,No,Fast Break,Right wing midfield,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Winger,Middle
+30,6,2023-08-30,2024,75,Firestorm FC,Shot Attempt,Yes,6,Goal,0.58,2,No,Set Piece,Left wing close to box,Goal,Yes,3,None,No,Quick Attack,Winger,Late
+31,6,2023-08-30,2024,6,Firestorm FC,Free Kick,Yes,5,Missed,0.51,1,No,Fast Break,Right wing outside box,Turnover,No,-1,None,No,Slow Build-up,Defender,Early
+32,6,2023-08-30,2024,42,Firestorm FC,Free Kick,Yes,27,On Target,0.13,1,No,Fast Break,Central midfield,Saved by GK,Yes,2,Cross,No,Slow Build-up,Striker,Middle
+33,6,2023-08-30,2024,39,Firestorm FC,Shot Attempt,Yes,11,Saved by GK,0.34,3,No,Set Piece,Left wing midfield,Saved by GK,Yes,2,Cross,No,Quick Attack,Striker,Middle
+34,6,2023-08-30,2024,37,Firestorm FC,Corner,Yes,26,On Target,0.06,1,No,Open Play,Left wing outside box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Midfielder,Middle
+35,7,2023-09-03,2024,79,Crimson Wolves,Pass Sequence,No,,,0.0,8,No,Fast Break,Left wing close to box,Retained Possession,Yes,1,Cross,No,Slow Build-up,Defender,Late
+36,7,2023-09-03,2024,32,Crimson Wolves,Counterattack,Yes,25,Goal,0.18,1,No,Open Play,Left wing inside box,Goal,Yes,3,Through Ball,Yes,Quick Attack,Striker,Middle
+37,7,2023-09-03,2024,59,Crimson Wolves,Counterattack,Yes,30,Saved by GK,0.15,3,No,Set Piece,Left wing close to box,Saved by GK,Yes,2,Through Ball,Yes,Slow Build-up,Defender,Middle
+38,7,2023-09-03,2024,34,Crimson Wolves,Counterattack,Yes,25,On Target,0.16,3,No,Fast Break,Left wing outside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Winger,Middle
+39,7,2023-09-03,2024,31,Crimson Wolves,Shot Attempt,Yes,15,On Target,0.37,1,Yes,Open Play,Left wing outside box,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Striker,Middle
+40,7,2023-09-03,2024,54,Crimson Wolves,Free Kick,Yes,15,Saved by GK,0.22,1,No,Set Piece,Left wing close to box,Goal,No,3,Through Ball,No,Quick Attack,Winger,Middle
+41,8,2023-09-14,2024,50,Golden Lions,Free Kick,Yes,22,Missed,0.12,2,No,Set Piece,Central inside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Midfielder,Middle
+42,8,2023-09-14,2024,60,Golden Lions,Counterattack,Yes,24,Goal,0.19,3,Yes,Open Play,Right wing close to box,Goal,Yes,3,Through Ball,Yes,Slow Build-up,Midfielder,Late
+43,8,2023-09-14,2024,7,Golden Lions,Shot Attempt,Yes,17,On Target,0.16,2,No,Set Piece,Right wing inside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Defender,Early
+44,8,2023-09-14,2024,3,Golden Lions,Corner,Yes,6,On Target,0.47,1,Yes,Open Play,Left wing outside box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Midfielder,Early
+45,8,2023-09-14,2024,17,Golden Lions,Free Kick,Yes,26,Goal,0.13,1,No,Fast Break,Right wing inside box,Goal,Yes,3,Cutback,Yes,Quick Attack,Midfielder,Early
+46,8,2023-09-14,2024,40,Golden Lions,Pass Sequence,No,,,0.0,1,No,Fast Break,Right wing close to box,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Striker,Middle
+47,9,2023-09-18,2024,14,Silver Hawks,Shot Attempt,Yes,26,Goal,0.17,3,Yes,Set Piece,Right wing midfield,Goal,Yes,3,Through Ball,No,Quick Attack,Winger,Early
+48,9,2023-09-18,2024,2,Silver Hawks,Free Kick,Yes,20,Goal,0.23,2,No,Fast Break,Left wing inside box,Goal,Yes,3,Through Ball,Yes,Slow Build-up,Defender,Early
+49,9,2023-09-18,2024,60,Silver Hawks,Free Kick,Yes,28,On Target,0.1,1,Yes,Set Piece,Left wing midfield,Saved by GK,Yes,2,Cross,No,Slow Build-up,Winger,Late
+50,9,2023-09-18,2024,4,Silver Hawks,Free Kick,Yes,15,Missed,0.25,2,No,Set Piece,Right wing inside box,Turnover,No,-1,Cutback,Yes,Quick Attack,Striker,Early
+51,9,2023-09-18,2024,31,Silver Hawks,Free Kick,Yes,20,Missed,0.31,3,No,Set Piece,Central inside box,Turnover,No,-1,None,No,Quick Attack,Defender,Middle
+52,10,2023-09-19,2024,40,Blue Sharks,Corner,Yes,16,Saved by GK,0.27,2,No,Fast Break,Right wing midfield,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Winger,Middle
+53,10,2023-09-19,2024,33,Blue Sharks,Counterattack,Yes,8,Missed,0.49,3,Yes,Open Play,Left wing outside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Striker,Middle
+54,10,2023-09-19,2024,25,Blue Sharks,Shot Attempt,Yes,12,On Target,0.15,1,Yes,Set Piece,Central inside box,Saved by GK,Yes,2,None,No,Quick Attack,Defender,Early
+55,10,2023-09-19,2024,14,Blue Sharks,Pass Sequence,No,,,0.0,5,No,Set Piece,Left wing midfield,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Winger,Early
+56,10,2023-09-19,2024,62,Blue Sharks,Pass Sequence,No,,,0.0,2,No,Set Piece,Central outside box,Retained Possession,Yes,1,None,Yes,Quick Attack,Winger,Late
+57,11,2023-09-24,2024,32,Green Dragons,Pass Sequence,No,,,0.0,7,Yes,Fast Break,Central midfield,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Defender,Middle
+58,11,2023-09-24,2024,40,Green Dragons,Corner,Yes,24,Goal,0.14,3,Yes,Open Play,Right wing close to box,Goal,Yes,3,Cross,No,Quick Attack,Midfielder,Middle
+59,11,2023-09-24,2024,31,Green Dragons,Counterattack,Yes,22,Goal,0.07,2,No,Fast Break,Left wing close to box,Goal,Yes,3,Through Ball,No,Quick Attack,Midfielder,Middle
+60,11,2023-09-24,2024,37,Green Dragons,Shot Attempt,Yes,27,Saved by GK,0.06,1,No,Fast Break,Left wing close to box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Midfielder,Middle
+61,11,2023-09-24,2024,35,Green Dragons,Counterattack,Yes,7,Goal,0.45,2,No,Set Piece,Central outside box,Goal,Yes,3,Through Ball,No,Slow Build-up,Winger,Middle
+62,12,2023-09-29,2024,57,Purple Panthers,Pass Sequence,No,,,0.0,1,No,Fast Break,Right wing outside box,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Midfielder,Middle
+63,12,2023-09-29,2024,87,Purple Panthers,Corner,Yes,23,Goal,0.2,3,No,Fast Break,Central inside box,Goal,Yes,3,Cross,No,Slow Build-up,Winger,Late
+64,12,2023-09-29,2024,24,Purple Panthers,Corner,Yes,18,Saved by GK,0.39,2,No,Set Piece,Right wing outside box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Defender,Early
+65,12,2023-09-29,2024,89,Purple Panthers,Free Kick,Yes,14,Saved by GK,0.34,3,Yes,Set Piece,Central outside box,Retained Possession,Yes,1,Cutback,No,Quick Attack,Defender,Late
+66,12,2023-09-29,2024,66,Purple Panthers,Pass Sequence,No,,,0.0,8,No,Open Play,Left wing outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Striker,Late
+67,12,2023-09-29,2024,27,Purple Panthers,Shot Attempt,Yes,22,Missed,0.19,2,No,Open Play,Central inside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Striker,Early
+68,13,2023-10-01,2024,12,Orange Tigers,Counterattack,Yes,8,Saved by GK,0.68,3,Yes,Set Piece,Right wing inside box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Midfielder,Early
+69,13,2023-10-01,2024,59,Orange Tigers,Corner,Yes,9,Saved by GK,0.46,3,Yes,Open Play,Right wing inside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Winger,Middle
+70,13,2023-10-01,2024,39,Orange Tigers,Corner,Yes,23,Saved by GK,0.18,2,No,Set Piece,Right wing outside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Midfielder,Middle
+71,13,2023-10-01,2024,74,Orange Tigers,Free Kick,Yes,12,Saved by GK,0.11,3,No,Fast Break,Central midfield,Saved by GK,Yes,2,Cross,No,Quick Attack,Midfielder,Late
+72,13,2023-10-01,2024,65,Orange Tigers,Corner,Yes,15,Goal,0.36,2,Yes,Fast Break,Left wing midfield,Goal,Yes,3,None,Yes,Slow Build-up,Midfielder,Late
+73,13,2023-10-01,2024,10,Orange Tigers,Free Kick,Yes,30,On Target,0.1,3,No,Fast Break,Central outside box,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Defender,Early
+74,14,2023-10-03,2024,80,Red Bulls,Pass Sequence,No,,,0.0,4,No,Open Play,Central outside box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Defender,Late
+75,14,2023-10-03,2024,22,Red Bulls,Shot Attempt,Yes,5,Goal,0.5,1,No,Set Piece,Right wing outside box,Goal,Yes,3,Through Ball,Yes,Quick Attack,Defender,Early
+76,14,2023-10-03,2024,73,Red Bulls,Counterattack,Yes,10,Missed,0.42,2,Yes,Set Piece,Left wing close to box,Turnover,No,-1,Cross,Yes,Slow Build-up,Winger,Late
+77,14,2023-10-03,2024,59,Red Bulls,Shot Attempt,Yes,26,Goal,0.18,2,No,Fast Break,Right wing midfield,Goal,Yes,3,Cross,Yes,Slow Build-up,Winger,Middle
+78,14,2023-10-03,2024,76,Red Bulls,Shot Attempt,Yes,25,Saved by GK,0.15,2,No,Open Play,Central midfield,Saved by GK,Yes,2,None,Yes,Slow Build-up,Winger,Late
+79,15,2023-10-07,2024,90,Black Knights,Shot Attempt,Yes,5,Saved by GK,0.48,3,Yes,Fast Break,Left wing midfield,Retained Possession,Yes,1,Cross,No,Quick Attack,Midfielder,Late
+80,15,2023-10-07,2024,80,Black Knights,Shot Attempt,Yes,26,Missed,0.14,3,Yes,Set Piece,Left wing midfield,Turnover,No,-1,None,No,Quick Attack,Striker,Late
+81,15,2023-10-07,2024,38,Black Knights,Shot Attempt,Yes,28,Saved by GK,0.08,1,No,Fast Break,Right wing midfield,Retained Possession,Yes,1,Cross,No,Slow Build-up,Winger,Middle
+82,15,2023-10-07,2024,44,Black Knights,Pass Sequence,No,,,0.0,8,Yes,Open Play,Left wing outside box,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Defender,Middle
+83,15,2023-10-07,2024,2,Black Knights,Shot Attempt,Yes,22,Goal,0.12,3,No,Fast Break,Central midfield,Goal,Yes,3,Cutback,Yes,Quick Attack,Defender,Early
+84,15,2023-10-07,2024,4,Black Knights,Corner,Yes,22,On Target,0.19,1,Yes,Fast Break,Left wing midfield,Saved by GK,Yes,2,Cutback,No,Quick Attack,Midfielder,Early
+85,16,2023-10-08,2024,5,White Eagles,Shot Attempt,Yes,20,Goal,0.13,3,Yes,Set Piece,Left wing midfield,Goal,Yes,3,Cutback,No,Quick Attack,Defender,Early
+86,16,2023-10-08,2024,84,White Eagles,Pass Sequence,No,,,0.0,8,No,Set Piece,Central inside box,Retained Possession,Yes,1,Cutback,Yes,Slow Build-up,Defender,Late
+87,16,2023-10-08,2024,31,White Eagles,Shot Attempt,Yes,8,On Target,0.56,3,No,Open Play,Central midfield,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Defender,Middle
+88,16,2023-10-08,2024,12,White Eagles,Counterattack,Yes,25,Goal,0.06,2,Yes,Open Play,Left wing close to box,Goal,Yes,3,Cross,Yes,Quick Attack,Midfielder,Early
+89,16,2023-10-08,2024,30,White Eagles,Shot Attempt,Yes,29,Missed,0.17,3,Yes,Set Piece,Left wing inside box,Turnover,No,-1,Cross,No,Quick Attack,Striker,Early
+90,17,2023-11-01,2024,17,Yellow Jackets,Pass Sequence,No,,,0.0,6,Yes,Fast Break,Right wing outside box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Striker,Early
+91,17,2023-11-01,2024,17,Yellow Jackets,Free Kick,Yes,21,Goal,0.16,2,No,Set Piece,Right wing midfield,Goal,Yes,3,None,No,Quick Attack,Striker,Early
+92,17,2023-11-01,2024,85,Yellow Jackets,Corner,Yes,14,Saved by GK,0.29,1,Yes,Set Piece,Central midfield,Saved by GK,Yes,2,None,No,Slow Build-up,Striker,Late
+93,17,2023-11-01,2024,11,Yellow Jackets,Shot Attempt,Yes,24,Missed,0.06,2,No,Set Piece,Left wing close to box,Turnover,No,-1,Cutback,No,Slow Build-up,Striker,Early
+94,17,2023-11-01,2024,90,Yellow Jackets,Pass Sequence,No,,,0.0,4,No,Set Piece,Left wing outside box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Defender,Late
+95,18,2023-11-07,2024,13,Maroon Stallions,Shot Attempt,Yes,18,On Target,0.3,2,Yes,Fast Break,Left wing midfield,Saved by GK,Yes,2,None,Yes,Quick Attack,Striker,Early
+96,18,2023-11-07,2024,56,Maroon Stallions,Pass Sequence,No,,,0.0,6,Yes,Fast Break,Central inside box,Retained Possession,Yes,1,Cutback,Yes,Slow Build-up,Winger,Middle
+97,18,2023-11-07,2024,86,Maroon Stallions,Free Kick,Yes,28,Goal,0.2,3,No,Set Piece,Central outside box,Goal,Yes,3,Cross,Yes,Slow Build-up,Midfielder,Late
+98,18,2023-11-07,2024,14,Maroon Stallions,Shot Attempt,Yes,22,On Target,0.07,2,Yes,Set Piece,Right wing midfield,Saved by GK,Yes,2,None,No,Quick Attack,Midfielder,Early
+99,18,2023-11-07,2024,35,Maroon Stallions,Shot Attempt,Yes,15,On Target,0.1,1,No,Open Play,Left wing inside box,Saved by GK,Yes,2,None,Yes,Quick Attack,Defender,Middle
+100,18,2023-11-07,2024,54,Maroon Stallions,Free Kick,Yes,15,Missed,0.21,3,No,Fast Break,Left wing close to box,Turnover,No,-1,None,Yes,Quick Attack,Midfielder,Middle
+101,19,2023-11-18,2024,87,Navy Seals,Pass Sequence,No,,,0.0,5,No,Fast Break,Central midfield,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Winger,Late
+102,19,2023-11-18,2024,28,Navy Seals,Corner,Yes,8,On Target,0.53,2,No,Fast Break,Right wing close to box,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Defender,Early
+103,19,2023-11-18,2024,77,Navy Seals,Pass Sequence,No,,,0.0,1,Yes,Set Piece,Left wing outside box,Retained Possession,Yes,1,Cross,No,Slow Build-up,Winger,Late
+104,19,2023-11-18,2024,16,Navy Seals,Pass Sequence,No,,,0.0,8,No,Open Play,Left wing inside box,Retained Possession,Yes,1,Through Ball,Yes,Slow Build-up,Striker,Early
+105,19,2023-11-18,2024,51,Navy Seals,Pass Sequence,No,,,0.0,7,Yes,Set Piece,Central outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Defender,Middle
+106,20,2023-11-20,2024,15,Forest Rangers,Free Kick,Yes,5,On Target,0.45,3,No,Fast Break,Right wing outside box,Saved by GK,Yes,2,None,No,Quick Attack,Midfielder,Early
+107,20,2023-11-20,2024,56,Forest Rangers,Corner,Yes,17,Goal,0.22,2,No,Open Play,Right wing outside box,Goal,Yes,3,Cross,Yes,Quick Attack,Midfielder,Middle
+108,20,2023-11-20,2024,45,Forest Rangers,Shot Attempt,Yes,28,Missed,0.09,1,No,Open Play,Left wing inside box,Turnover,No,-1,Cross,Yes,Quick Attack,Defender,Middle
+109,20,2023-11-20,2024,60,Forest Rangers,Corner,Yes,29,Saved by GK,0.15,3,No,Fast Break,Right wing outside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Defender,Late
+110,20,2023-11-20,2024,81,Forest Rangers,Shot Attempt,Yes,30,On Target,0.14,2,Yes,Set Piece,Left wing midfield,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Winger,Late
+111,20,2023-11-20,2024,37,Forest Rangers,Pass Sequence,No,,,0.0,2,No,Set Piece,Left wing close to box,Retained Possession,Yes,1,None,No,Quick Attack,Winger,Middle
+112,21,2023-11-21,2024,65,Thunder FC,Counterattack,Yes,6,Saved by GK,0.43,2,Yes,Fast Break,Right wing close to box,Turnover,No,-1,None,Yes,Slow Build-up,Defender,Late
+113,21,2023-11-21,2024,68,Thunder FC,Corner,Yes,24,Missed,0.1,2,No,Set Piece,Right wing outside box,Turnover,No,-1,None,No,Quick Attack,Winger,Late
+114,21,2023-11-21,2024,13,Thunder FC,Corner,Yes,26,Saved by GK,0.09,3,Yes,Set Piece,Central outside box,Turnover,No,-1,Cutback,No,Slow Build-up,Midfielder,Early
+115,21,2023-11-21,2024,77,Thunder FC,Pass Sequence,No,,,0.0,5,No,Fast Break,Right wing outside box,Retained Possession,Yes,1,Cross,Yes,Slow Build-up,Winger,Late
+116,21,2023-11-21,2024,3,Thunder FC,Shot Attempt,Yes,14,Missed,0.39,2,No,Open Play,Left wing outside box,Turnover,No,-1,Cross,Yes,Quick Attack,Winger,Early
+117,21,2023-11-21,2024,13,Thunder FC,Corner,Yes,29,Goal,0.15,3,Yes,Fast Break,Central midfield,Goal,Yes,3,Cross,Yes,Quick Attack,Midfielder,Early
+118,22,2023-11-23,2024,6,Phoenix United,Free Kick,Yes,16,Missed,0.39,3,No,Fast Break,Left wing midfield,Turnover,No,-1,Cross,Yes,Slow Build-up,Defender,Early
+119,22,2023-11-23,2024,25,Phoenix United,Shot Attempt,Yes,26,Saved by GK,0.12,2,No,Fast Break,Right wing midfield,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Winger,Early
+120,22,2023-11-23,2024,7,Phoenix United,Free Kick,Yes,16,Goal,0.31,3,Yes,Set Piece,Central outside box,Goal,Yes,3,Cross,No,Slow Build-up,Midfielder,Early
+121,22,2023-11-23,2024,56,Phoenix United,Pass Sequence,No,,,0.0,4,No,Set Piece,Central inside box,Retained Possession,Yes,1,Through Ball,Yes,Slow Build-up,Winger,Middle
+122,22,2023-11-23,2024,31,Phoenix United,Free Kick,Yes,7,On Target,0.47,2,Yes,Fast Break,Right wing close to box,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Striker,Middle
+123,22,2023-11-23,2024,37,Phoenix United,Free Kick,Yes,27,Missed,0.16,2,No,Fast Break,Central inside box,Turnover,No,-1,None,Yes,Slow Build-up,Midfielder,Middle
+124,23,2023-12-08,2024,71,Storm Rovers,Corner,Yes,21,Saved by GK,0.07,2,Yes,Set Piece,Central outside box,Goal,No,3,Cross,No,Slow Build-up,Striker,Late
+125,23,2023-12-08,2024,15,Storm Rovers,Free Kick,Yes,24,Goal,0.14,3,Yes,Fast Break,Left wing inside box,Goal,Yes,3,Cutback,No,Quick Attack,Winger,Early
+126,23,2023-12-08,2024,31,Storm Rovers,Corner,Yes,18,Missed,0.3,1,No,Open Play,Right wing midfield,Turnover,No,-1,None,No,Slow Build-up,Striker,Middle
+127,23,2023-12-08,2024,82,Storm Rovers,Free Kick,Yes,16,On Target,0.32,2,Yes,Set Piece,Left wing outside box,Saved by GK,Yes,2,None,No,Quick Attack,Striker,Late
+128,23,2023-12-08,2024,46,Storm Rovers,Corner,Yes,15,Missed,0.35,3,No,Fast Break,Left wing midfield,Turnover,No,-1,Cross,Yes,Quick Attack,Defender,Middle
+129,24,2023-12-09,2024,38,Eagle City,Counterattack,Yes,6,Missed,0.67,2,No,Fast Break,Central midfield,Turnover,No,-1,Through Ball,No,Quick Attack,Midfielder,Middle
+130,24,2023-12-09,2024,37,Eagle City,Shot Attempt,Yes,29,Goal,0.18,2,No,Open Play,Right wing outside box,Goal,Yes,3,Through Ball,No,Slow Build-up,Defender,Middle
+131,24,2023-12-09,2024,44,Eagle City,Counterattack,Yes,20,Saved by GK,0.21,3,No,Open Play,Central midfield,Goal,No,3,Through Ball,Yes,Slow Build-up,Winger,Middle
+132,24,2023-12-09,2024,14,Eagle City,Pass Sequence,No,,,0.0,6,No,Set Piece,Left wing midfield,Retained Possession,Yes,1,Through Ball,Yes,Slow Build-up,Winger,Early
+133,24,2023-12-09,2024,58,Eagle City,Pass Sequence,No,,,0.0,6,No,Set Piece,Right wing close to box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Winger,Middle
+134,25,2023-12-14,2024,4,Lightning Athletic,Counterattack,Yes,24,Saved by GK,0.06,1,Yes,Fast Break,Right wing outside box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Defender,Early
+135,25,2023-12-14,2024,48,Lightning Athletic,Shot Attempt,Yes,19,Goal,0.27,3,No,Set Piece,Right wing outside box,Goal,Yes,3,Cutback,Yes,Quick Attack,Striker,Middle
+136,25,2023-12-14,2024,24,Lightning Athletic,Free Kick,Yes,21,Saved by GK,0.19,1,No,Set Piece,Left wing midfield,Turnover,No,-1,Cutback,No,Quick Attack,Striker,Early
+137,25,2023-12-14,2024,18,Lightning Athletic,Pass Sequence,No,,,0.0,8,Yes,Fast Break,Left wing midfield,Retained Possession,Yes,1,None,No,Slow Build-up,Striker,Early
+138,25,2023-12-14,2024,71,Lightning Athletic,Corner,Yes,14,On Target,0.36,3,Yes,Set Piece,Right wing midfield,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Midfielder,Late
+139,26,2023-12-15,2024,64,Firestorm FC,Pass Sequence,No,,,0.0,6,No,Set Piece,Right wing midfield,Retained Possession,Yes,1,Cross,Yes,Quick Attack,Winger,Late
+140,26,2023-12-15,2024,51,Firestorm FC,Free Kick,Yes,21,Saved by GK,0.17,3,Yes,Open Play,Right wing outside box,Goal,No,3,Through Ball,No,Slow Build-up,Midfielder,Middle
+141,26,2023-12-15,2024,71,Firestorm FC,Corner,Yes,10,Missed,0.53,1,Yes,Fast Break,Left wing inside box,Turnover,No,-1,Cutback,Yes,Quick Attack,Winger,Late
+142,26,2023-12-15,2024,29,Firestorm FC,Shot Attempt,Yes,21,On Target,0.18,2,Yes,Fast Break,Right wing midfield,Saved by GK,Yes,2,Cutback,Yes,Slow Build-up,Striker,Early
+143,26,2023-12-15,2024,65,Firestorm FC,Counterattack,Yes,23,Missed,0.08,3,No,Fast Break,Central inside box,Turnover,No,-1,None,Yes,Quick Attack,Winger,Late
+144,27,2023-12-18,2024,74,Crimson Wolves,Free Kick,Yes,24,Goal,0.12,3,No,Fast Break,Right wing inside box,Goal,Yes,3,Through Ball,Yes,Slow Build-up,Winger,Late
+145,27,2023-12-18,2024,59,Crimson Wolves,Pass Sequence,No,,,0.0,1,Yes,Set Piece,Central midfield,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Winger,Middle
+146,27,2023-12-18,2024,78,Crimson Wolves,Counterattack,Yes,15,On Target,0.32,2,No,Open Play,Right wing outside box,Saved by GK,Yes,2,None,No,Quick Attack,Defender,Late
+147,27,2023-12-18,2024,16,Crimson Wolves,Shot Attempt,Yes,19,Missed,0.14,1,No,Set Piece,Left wing close to box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Winger,Early
+148,27,2023-12-18,2024,74,Crimson Wolves,Shot Attempt,Yes,11,Missed,0.25,3,No,Set Piece,Right wing inside box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Defender,Late
+149,28,2023-12-19,2024,31,Golden Lions,Counterattack,Yes,23,On Target,0.06,2,No,Fast Break,Right wing close to box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Striker,Middle
+150,28,2023-12-19,2024,56,Golden Lions,Counterattack,Yes,13,On Target,0.33,2,Yes,Set Piece,Central inside box,Saved by GK,Yes,2,Cross,No,Slow Build-up,Striker,Middle
+151,28,2023-12-19,2024,50,Golden Lions,Corner,Yes,19,On Target,0.35,3,Yes,Open Play,Central outside box,Saved by GK,Yes,2,Through Ball,No,Slow Build-up,Winger,Middle
+152,28,2023-12-19,2024,19,Golden Lions,Counterattack,Yes,24,Saved by GK,0.13,1,Yes,Open Play,Right wing outside box,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Winger,Early
+153,28,2023-12-19,2024,79,Golden Lions,Shot Attempt,Yes,10,Saved by GK,0.7,3,No,Fast Break,Right wing outside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Winger,Late
+154,28,2023-12-19,2024,43,Golden Lions,Pass Sequence,No,,,0.0,7,No,Fast Break,Right wing close to box,Retained Possession,Yes,1,None,No,Slow Build-up,Midfielder,Middle
+155,29,2024-01-06,2024,75,Silver Hawks,Free Kick,Yes,10,Saved by GK,0.44,3,Yes,Open Play,Left wing close to box,Goal,No,3,Cross,Yes,Slow Build-up,Winger,Late
+156,29,2024-01-06,2024,54,Silver Hawks,Counterattack,Yes,18,Missed,0.22,3,No,Fast Break,Central inside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Defender,Middle
+157,29,2024-01-06,2024,68,Silver Hawks,Free Kick,Yes,15,Missed,0.24,3,No,Fast Break,Right wing outside box,Turnover,No,-1,Cutback,No,Quick Attack,Midfielder,Late
+158,29,2024-01-06,2024,36,Silver Hawks,Corner,Yes,14,Missed,0.38,2,No,Fast Break,Left wing outside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Winger,Middle
+159,29,2024-01-06,2024,72,Silver Hawks,Shot Attempt,Yes,14,Goal,0.27,3,No,Set Piece,Right wing outside box,Goal,Yes,3,Cross,No,Quick Attack,Winger,Late
+160,30,2024-01-23,2024,45,Blue Sharks,Free Kick,Yes,25,On Target,0.16,1,Yes,Fast Break,Right wing inside box,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Midfielder,Middle
+161,30,2024-01-23,2024,32,Blue Sharks,Pass Sequence,No,,,0.0,4,Yes,Open Play,Central outside box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Striker,Middle
+162,30,2024-01-23,2024,88,Blue Sharks,Counterattack,Yes,5,Missed,0.52,2,No,Fast Break,Left wing outside box,Turnover,No,-1,Cutback,No,Slow Build-up,Striker,Late
+163,30,2024-01-23,2024,12,Blue Sharks,Corner,Yes,12,Goal,0.37,1,No,Open Play,Central inside box,Goal,Yes,3,Through Ball,No,Quick Attack,Winger,Early
+164,30,2024-01-23,2024,5,Blue Sharks,Pass Sequence,No,,,0.0,5,Yes,Set Piece,Right wing inside box,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Defender,Early
+165,31,2024-01-25,2024,25,Green Dragons,Pass Sequence,No,,,0.0,6,Yes,Fast Break,Left wing midfield,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Winger,Early
+166,31,2024-01-25,2024,38,Green Dragons,Corner,Yes,26,Missed,0.08,3,No,Set Piece,Right wing midfield,Turnover,No,-1,Cutback,Yes,Slow Build-up,Striker,Middle
+167,31,2024-01-25,2024,24,Green Dragons,Counterattack,Yes,20,On Target,0.38,1,No,Set Piece,Left wing outside box,Saved by GK,Yes,2,Through Ball,No,Slow Build-up,Winger,Early
+168,31,2024-01-25,2024,75,Green Dragons,Corner,Yes,5,On Target,0.6,3,Yes,Open Play,Right wing close to box,Saved by GK,Yes,2,None,No,Slow Build-up,Midfielder,Late
+169,31,2024-01-25,2024,52,Green Dragons,Corner,Yes,27,On Target,0.15,3,No,Set Piece,Left wing close to box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Defender,Middle
+170,31,2024-01-25,2024,20,Green Dragons,Free Kick,Yes,28,On Target,0.11,3,No,Fast Break,Right wing close to box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Defender,Early
+171,32,2024-01-26,2024,10,Purple Panthers,Corner,Yes,8,Goal,0.65,3,Yes,Fast Break,Right wing midfield,Goal,Yes,3,Cross,Yes,Slow Build-up,Defender,Early
+172,32,2024-01-26,2024,15,Purple Panthers,Counterattack,Yes,27,Saved by GK,0.06,3,No,Open Play,Left wing midfield,Turnover,No,-1,Through Ball,No,Quick Attack,Defender,Early
+173,32,2024-01-26,2024,87,Purple Panthers,Shot Attempt,Yes,28,Goal,0.11,1,Yes,Fast Break,Central outside box,Goal,Yes,3,None,No,Slow Build-up,Striker,Late
+174,32,2024-01-26,2024,70,Purple Panthers,Pass Sequence,No,,,0.0,2,No,Open Play,Right wing inside box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Defender,Late
+175,32,2024-01-26,2024,48,Purple Panthers,Free Kick,Yes,19,Saved by GK,0.21,3,Yes,Fast Break,Right wing outside box,Goal,No,3,Cross,No,Quick Attack,Midfielder,Middle
+176,32,2024-01-26,2024,1,Purple Panthers,Pass Sequence,No,,,0.0,5,No,Fast Break,Right wing midfield,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Midfielder,Early
+177,33,2024-02-05,2024,45,Orange Tigers,Counterattack,Yes,13,Missed,0.38,3,Yes,Open Play,Right wing close to box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Midfielder,Middle
+178,33,2024-02-05,2024,9,Orange Tigers,Pass Sequence,No,,,0.0,1,No,Fast Break,Right wing close to box,Retained Possession,Yes,1,None,Yes,Quick Attack,Defender,Early
+179,33,2024-02-05,2024,57,Orange Tigers,Counterattack,Yes,22,Missed,0.16,1,Yes,Fast Break,Right wing inside box,Turnover,No,-1,Cross,No,Slow Build-up,Midfielder,Middle
+180,33,2024-02-05,2024,39,Orange Tigers,Counterattack,Yes,26,Missed,0.11,2,Yes,Fast Break,Left wing close to box,Turnover,No,-1,Cross,No,Slow Build-up,Striker,Middle
+181,33,2024-02-05,2024,45,Orange Tigers,Free Kick,Yes,30,On Target,0.15,2,Yes,Set Piece,Central midfield,Saved by GK,Yes,2,Cross,No,Quick Attack,Midfielder,Middle
+182,33,2024-02-05,2024,39,Orange Tigers,Counterattack,Yes,30,Saved by GK,0.19,3,No,Set Piece,Right wing midfield,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Midfielder,Middle
+183,34,2024-02-07,2024,83,Red Bulls,Pass Sequence,No,,,0.0,8,No,Open Play,Right wing midfield,Retained Possession,Yes,1,Cross,Yes,Slow Build-up,Defender,Late
+184,34,2024-02-07,2024,87,Red Bulls,Corner,Yes,24,Goal,0.18,1,Yes,Set Piece,Left wing outside box,Goal,Yes,3,Cutback,No,Quick Attack,Midfielder,Late
+185,34,2024-02-07,2024,25,Red Bulls,Pass Sequence,No,,,0.0,8,Yes,Fast Break,Left wing close to box,Retained Possession,Yes,1,Cross,No,Quick Attack,Winger,Early
+186,34,2024-02-07,2024,37,Red Bulls,Free Kick,Yes,19,On Target,0.19,2,No,Set Piece,Central outside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Winger,Middle
+187,34,2024-02-07,2024,41,Red Bulls,Free Kick,Yes,6,Missed,0.62,1,No,Fast Break,Left wing close to box,Turnover,No,-1,Through Ball,No,Quick Attack,Midfielder,Middle
+188,34,2024-02-07,2024,43,Red Bulls,Counterattack,Yes,17,Missed,0.25,3,No,Set Piece,Left wing midfield,Turnover,No,-1,Through Ball,No,Quick Attack,Winger,Middle
+189,35,2024-02-09,2024,18,Black Knights,Corner,Yes,20,Missed,0.38,3,Yes,Fast Break,Central inside box,Turnover,No,-1,None,Yes,Quick Attack,Defender,Early
+190,35,2024-02-09,2024,18,Black Knights,Counterattack,Yes,7,Missed,0.4,3,No,Set Piece,Central inside box,Turnover,No,-1,Through Ball,No,Quick Attack,Striker,Early
+191,35,2024-02-09,2024,69,Black Knights,Corner,Yes,18,Goal,0.11,3,No,Fast Break,Right wing inside box,Goal,Yes,3,None,No,Quick Attack,Striker,Late
+192,35,2024-02-09,2024,13,Black Knights,Corner,Yes,9,Missed,0.46,3,No,Set Piece,Right wing inside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Defender,Early
+193,35,2024-02-09,2024,59,Black Knights,Corner,Yes,12,Missed,0.19,1,Yes,Open Play,Central midfield,Turnover,No,-1,Through Ball,No,Slow Build-up,Striker,Middle
+194,36,2024-02-11,2024,90,White Eagles,Counterattack,Yes,7,Saved by GK,0.65,3,No,Fast Break,Central outside box,Goal,No,3,Cross,Yes,Slow Build-up,Winger,Late
+195,36,2024-02-11,2024,6,White Eagles,Pass Sequence,No,,,0.0,5,Yes,Open Play,Right wing outside box,Retained Possession,Yes,1,None,Yes,Quick Attack,Defender,Early
+196,36,2024-02-11,2024,10,White Eagles,Shot Attempt,Yes,10,Missed,0.57,2,No,Set Piece,Left wing inside box,Turnover,No,-1,None,No,Quick Attack,Striker,Early
+197,36,2024-02-11,2024,56,White Eagles,Counterattack,Yes,7,On Target,0.58,3,No,Set Piece,Central inside box,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Midfielder,Middle
+198,36,2024-02-11,2024,46,White Eagles,Corner,Yes,17,Saved by GK,0.16,3,No,Open Play,Left wing close to box,Retained Possession,Yes,1,Cross,Yes,Quick Attack,Winger,Middle
+199,37,2024-02-25,2024,49,Yellow Jackets,Counterattack,Yes,28,Saved by GK,0.1,1,Yes,Open Play,Right wing inside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Midfielder,Middle
+200,37,2024-02-25,2024,12,Yellow Jackets,Counterattack,Yes,18,Saved by GK,0.27,3,No,Open Play,Central inside box,Goal,No,3,Cutback,Yes,Slow Build-up,Defender,Early
+201,37,2024-02-25,2024,2,Yellow Jackets,Shot Attempt,Yes,18,Saved by GK,0.33,3,Yes,Fast Break,Right wing midfield,Turnover,No,-1,Through Ball,Yes,Quick Attack,Winger,Early
+202,37,2024-02-25,2024,39,Yellow Jackets,Shot Attempt,Yes,20,Missed,0.12,2,No,Set Piece,Right wing inside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Winger,Middle
+203,37,2024-02-25,2024,32,Yellow Jackets,Free Kick,Yes,24,Missed,0.12,1,No,Open Play,Central midfield,Turnover,No,-1,Cutback,No,Slow Build-up,Defender,Middle
+204,38,2024-03-03,2024,56,Maroon Stallions,Corner,Yes,9,On Target,0.5,3,Yes,Set Piece,Right wing outside box,Saved by GK,Yes,2,Cross,No,Slow Build-up,Winger,Middle
+205,38,2024-03-03,2024,89,Maroon Stallions,Free Kick,Yes,23,Missed,0.1,2,No,Set Piece,Central outside box,Turnover,No,-1,Cross,Yes,Quick Attack,Defender,Late
+206,38,2024-03-03,2024,27,Maroon Stallions,Free Kick,Yes,30,On Target,0.17,1,No,Fast Break,Left wing midfield,Saved by GK,Yes,2,Cross,No,Quick Attack,Winger,Early
+207,38,2024-03-03,2024,85,Maroon Stallions,Counterattack,Yes,27,Saved by GK,0.17,1,No,Fast Break,Left wing midfield,Saved by GK,Yes,2,Through Ball,Yes,Slow Build-up,Striker,Late
+208,38,2024-03-03,2024,14,Maroon Stallions,Counterattack,Yes,26,On Target,0.07,3,Yes,Fast Break,Right wing close to box,Saved by GK,Yes,2,Through Ball,No,Slow Build-up,Striker,Early
+209,38,2024-03-03,2024,2,Maroon Stallions,Pass Sequence,No,,,0.0,5,Yes,Fast Break,Right wing midfield,Retained Possession,Yes,1,Cross,No,Slow Build-up,Defender,Early
+210,39,2024-03-04,2024,87,Navy Seals,Corner,Yes,27,Missed,0.1,1,No,Open Play,Right wing inside box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Midfielder,Late
+211,39,2024-03-04,2024,45,Navy Seals,Shot Attempt,Yes,15,Saved by GK,0.34,3,No,Set Piece,Left wing midfield,Goal,No,3,Through Ball,No,Slow Build-up,Striker,Middle
+212,39,2024-03-04,2024,39,Navy Seals,Pass Sequence,No,,,0.0,2,Yes,Set Piece,Right wing close to box,Retained Possession,Yes,1,None,Yes,Quick Attack,Midfielder,Middle
+213,39,2024-03-04,2024,71,Navy Seals,Counterattack,Yes,15,Saved by GK,0.39,1,No,Fast Break,Left wing inside box,Turnover,No,-1,Through Ball,No,Quick Attack,Midfielder,Late
+214,39,2024-03-04,2024,58,Navy Seals,Corner,Yes,18,Saved by GK,0.1,1,Yes,Set Piece,Central outside box,Goal,No,3,Cross,No,Slow Build-up,Midfielder,Middle
+215,39,2024-03-04,2024,59,Navy Seals,Pass Sequence,No,,,0.0,5,No,Fast Break,Right wing close to box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Striker,Middle
+216,40,2024-03-12,2024,46,Forest Rangers,Free Kick,Yes,24,Missed,0.17,3,No,Fast Break,Left wing close to box,Turnover,No,-1,None,Yes,Slow Build-up,Striker,Middle
+217,40,2024-03-12,2024,31,Forest Rangers,Shot Attempt,Yes,8,Missed,0.51,1,No,Set Piece,Left wing close to box,Turnover,No,-1,Cross,No,Slow Build-up,Midfielder,Middle
+218,40,2024-03-12,2024,63,Forest Rangers,Corner,Yes,27,Missed,0.13,2,No,Open Play,Left wing inside box,Turnover,No,-1,Cutback,No,Quick Attack,Winger,Late
+219,40,2024-03-12,2024,2,Forest Rangers,Free Kick,Yes,9,Missed,0.64,3,No,Set Piece,Right wing close to box,Turnover,No,-1,Through Ball,No,Slow Build-up,Defender,Early
+220,40,2024-03-12,2024,22,Forest Rangers,Pass Sequence,No,,,0.0,1,Yes,Set Piece,Central inside box,Retained Possession,Yes,1,Cutback,Yes,Slow Build-up,Midfielder,Early
+221,40,2024-03-12,2024,59,Forest Rangers,Corner,Yes,28,Saved by GK,0.13,1,Yes,Set Piece,Right wing midfield,Retained Possession,Yes,1,None,No,Quick Attack,Defender,Middle
+222,41,2024-03-13,2024,84,Thunder FC,Counterattack,Yes,14,Goal,0.23,2,Yes,Set Piece,Central outside box,Goal,Yes,3,Cross,Yes,Slow Build-up,Defender,Late
+223,41,2024-03-13,2024,22,Thunder FC,Corner,Yes,9,Missed,0.64,1,No,Fast Break,Right wing inside box,Turnover,No,-1,Cross,No,Slow Build-up,Winger,Early
+224,41,2024-03-13,2024,74,Thunder FC,Shot Attempt,Yes,21,Goal,0.07,2,Yes,Set Piece,Right wing close to box,Goal,Yes,3,Cross,Yes,Quick Attack,Midfielder,Late
+225,41,2024-03-13,2024,42,Thunder FC,Counterattack,Yes,29,Saved by GK,0.12,3,No,Fast Break,Central midfield,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Defender,Middle
+226,41,2024-03-13,2024,66,Thunder FC,Shot Attempt,Yes,27,On Target,0.12,2,No,Fast Break,Central inside box,Saved by GK,Yes,2,None,No,Slow Build-up,Striker,Late
+227,42,2024-03-28,2024,28,Phoenix United,Free Kick,Yes,11,Saved by GK,0.18,2,No,Fast Break,Left wing close to box,Turnover,No,-1,Through Ball,No,Quick Attack,Striker,Early
+228,42,2024-03-28,2024,13,Phoenix United,Free Kick,Yes,5,Goal,0.68,1,No,Set Piece,Central inside box,Goal,Yes,3,Through Ball,Yes,Quick Attack,Winger,Early
+229,42,2024-03-28,2024,21,Phoenix United,Shot Attempt,Yes,7,On Target,0.48,2,Yes,Open Play,Central midfield,Saved by GK,Yes,2,Cutback,Yes,Slow Build-up,Striker,Early
+230,42,2024-03-28,2024,13,Phoenix United,Pass Sequence,No,,,0.0,4,No,Open Play,Left wing inside box,Retained Possession,Yes,1,Cross,No,Quick Attack,Striker,Early
+231,42,2024-03-28,2024,90,Phoenix United,Shot Attempt,Yes,8,Saved by GK,0.61,2,Yes,Open Play,Central midfield,Goal,No,3,None,Yes,Slow Build-up,Winger,Late
+232,42,2024-03-28,2024,39,Phoenix United,Counterattack,Yes,17,Missed,0.29,3,Yes,Open Play,Right wing midfield,Turnover,No,-1,None,Yes,Slow Build-up,Winger,Middle
+233,43,2024-04-02,2024,81,Storm Rovers,Counterattack,Yes,18,Saved by GK,0.36,1,Yes,Open Play,Central outside box,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Midfielder,Late
+234,43,2024-04-02,2024,32,Storm Rovers,Shot Attempt,Yes,25,Goal,0.09,3,No,Fast Break,Central inside box,Goal,Yes,3,Cutback,Yes,Quick Attack,Defender,Middle
+235,43,2024-04-02,2024,38,Storm Rovers,Pass Sequence,No,,,0.0,4,No,Set Piece,Central outside box,Retained Possession,Yes,1,Cross,No,Quick Attack,Striker,Middle
+236,43,2024-04-02,2024,47,Storm Rovers,Shot Attempt,Yes,9,Saved by GK,0.66,3,No,Set Piece,Right wing midfield,Turnover,No,-1,Through Ball,Yes,Quick Attack,Striker,Middle
+237,43,2024-04-02,2024,2,Storm Rovers,Shot Attempt,Yes,11,Goal,0.38,2,No,Fast Break,Right wing midfield,Goal,Yes,3,Through Ball,No,Slow Build-up,Striker,Early
+238,44,2024-04-09,2024,36,Eagle City,Pass Sequence,No,,,0.0,5,Yes,Fast Break,Left wing outside box,Retained Possession,Yes,1,Cross,No,Slow Build-up,Striker,Middle
+239,44,2024-04-09,2024,40,Eagle City,Free Kick,Yes,28,Missed,0.06,1,No,Open Play,Left wing midfield,Turnover,No,-1,None,No,Quick Attack,Striker,Middle
+240,44,2024-04-09,2024,2,Eagle City,Counterattack,Yes,27,Goal,0.07,2,No,Open Play,Right wing outside box,Goal,Yes,3,Cross,No,Quick Attack,Striker,Early
+241,44,2024-04-09,2024,43,Eagle City,Free Kick,Yes,13,Goal,0.18,3,Yes,Set Piece,Left wing midfield,Goal,Yes,3,Cutback,Yes,Slow Build-up,Midfielder,Middle
+242,44,2024-04-09,2024,48,Eagle City,Counterattack,Yes,13,Goal,0.37,3,Yes,Open Play,Right wing midfield,Goal,Yes,3,None,Yes,Quick Attack,Midfielder,Middle
+243,45,2024-04-20,2024,61,Lightning Athletic,Shot Attempt,Yes,17,Missed,0.15,1,No,Open Play,Right wing outside box,Turnover,No,-1,Cross,No,Slow Build-up,Winger,Late
+244,45,2024-04-20,2024,10,Lightning Athletic,Corner,Yes,16,Goal,0.25,1,Yes,Open Play,Right wing midfield,Goal,Yes,3,None,No,Quick Attack,Defender,Early
+245,45,2024-04-20,2024,37,Lightning Athletic,Shot Attempt,Yes,15,Goal,0.27,1,No,Open Play,Right wing inside box,Goal,Yes,3,Cutback,Yes,Slow Build-up,Winger,Middle
+246,45,2024-04-20,2024,76,Lightning Athletic,Free Kick,Yes,29,Missed,0.16,3,Yes,Open Play,Central inside box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Winger,Late
+247,45,2024-04-20,2024,82,Lightning Athletic,Pass Sequence,No,,,0.0,6,Yes,Fast Break,Central midfield,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Midfielder,Late
+248,46,2024-04-24,2024,63,Firestorm FC,Pass Sequence,No,,,0.0,3,No,Open Play,Central inside box,Retained Possession,Yes,1,Cross,No,Slow Build-up,Defender,Late
+249,46,2024-04-24,2024,11,Firestorm FC,Corner,Yes,8,Missed,0.59,2,Yes,Fast Break,Left wing close to box,Turnover,No,-1,None,No,Quick Attack,Midfielder,Early
+250,46,2024-04-24,2024,38,Firestorm FC,Shot Attempt,Yes,15,Saved by GK,0.31,3,No,Set Piece,Left wing midfield,Retained Possession,Yes,1,Cross,Yes,Quick Attack,Midfielder,Middle
+251,46,2024-04-24,2024,75,Firestorm FC,Pass Sequence,No,,,0.0,3,Yes,Open Play,Left wing midfield,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Striker,Late
+252,46,2024-04-24,2024,69,Firestorm FC,Shot Attempt,Yes,29,Missed,0.12,2,No,Open Play,Central outside box,Turnover,No,-1,Cross,No,Quick Attack,Midfielder,Late
+253,46,2024-04-24,2024,42,Firestorm FC,Counterattack,Yes,7,Missed,0.69,2,Yes,Fast Break,Right wing inside box,Turnover,No,-1,Cutback,Yes,Quick Attack,Defender,Middle
+254,47,2024-04-26,2024,72,Crimson Wolves,Corner,Yes,12,Goal,0.24,1,Yes,Open Play,Central inside box,Goal,Yes,3,Cross,Yes,Quick Attack,Defender,Late
+255,47,2024-04-26,2024,48,Crimson Wolves,Pass Sequence,No,,,0.0,5,Yes,Open Play,Central outside box,Retained Possession,Yes,1,Cross,No,Quick Attack,Striker,Middle
+256,47,2024-04-26,2024,43,Crimson Wolves,Pass Sequence,No,,,0.0,1,No,Open Play,Left wing inside box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Striker,Middle
+257,47,2024-04-26,2024,49,Crimson Wolves,Free Kick,Yes,10,On Target,0.46,1,No,Set Piece,Left wing midfield,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Winger,Middle
+258,47,2024-04-26,2024,64,Crimson Wolves,Free Kick,Yes,22,Saved by GK,0.06,2,No,Open Play,Central midfield,Turnover,No,-1,Cross,Yes,Slow Build-up,Winger,Late
+259,47,2024-04-26,2024,62,Crimson Wolves,Corner,Yes,30,Saved by GK,0.1,3,No,Set Piece,Right wing inside box,Turnover,No,-1,None,No,Quick Attack,Striker,Late
+260,48,2022-09-08,2023,8,Thunder FC,Counterattack,Yes,24,Missed,0.05,2,Yes,Set Piece,Left wing close to box,Turnover,No,-1,Cross,Yes,Slow Build-up,Midfielder,Early
+261,48,2022-09-08,2023,42,Thunder FC,Pass Sequence,No,,,0.0,1,Yes,Fast Break,Left wing inside box,Retained Possession,Yes,1,None,No,Quick Attack,Winger,Middle
+262,48,2022-09-08,2023,85,Thunder FC,Free Kick,Yes,23,Goal,0.1,2,Yes,Open Play,Central midfield,Goal,Yes,3,Through Ball,No,Quick Attack,Winger,Late
+263,48,2022-09-08,2023,29,Thunder FC,Corner,Yes,10,Saved by GK,0.49,3,No,Open Play,Left wing inside box,Goal,No,3,Through Ball,Yes,Quick Attack,Winger,Early
+264,48,2022-09-08,2023,79,Thunder FC,Counterattack,Yes,25,Goal,0.19,1,No,Fast Break,Central outside box,Goal,Yes,3,Cross,No,Slow Build-up,Midfielder,Late
+265,49,2022-09-12,2023,86,Phoenix United,Shot Attempt,Yes,19,Goal,0.18,1,Yes,Set Piece,Right wing inside box,Goal,Yes,3,None,Yes,Quick Attack,Defender,Late
+266,49,2022-09-12,2023,57,Phoenix United,Free Kick,Yes,10,Saved by GK,0.55,2,No,Fast Break,Central midfield,Goal,No,3,Through Ball,Yes,Quick Attack,Defender,Middle
+267,49,2022-09-12,2023,10,Phoenix United,Pass Sequence,No,,,0.0,5,Yes,Set Piece,Right wing inside box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Midfielder,Early
+268,49,2022-09-12,2023,49,Phoenix United,Counterattack,Yes,28,Goal,0.13,1,No,Fast Break,Left wing close to box,Goal,Yes,3,Through Ball,Yes,Slow Build-up,Midfielder,Middle
+269,49,2022-09-12,2023,78,Phoenix United,Free Kick,Yes,10,Goal,0.43,1,Yes,Set Piece,Right wing midfield,Goal,Yes,3,Cutback,No,Slow Build-up,Midfielder,Late
+270,50,2022-09-17,2023,7,Storm Rovers,Free Kick,Yes,23,Saved by GK,0.07,2,Yes,Set Piece,Central outside box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Striker,Early
+271,50,2022-09-17,2023,27,Storm Rovers,Counterattack,Yes,25,On Target,0.2,2,Yes,Set Piece,Central midfield,Saved by GK,Yes,2,Through Ball,No,Slow Build-up,Striker,Early
+272,50,2022-09-17,2023,83,Storm Rovers,Corner,Yes,17,Missed,0.21,2,No,Open Play,Left wing midfield,Turnover,No,-1,None,No,Slow Build-up,Defender,Late
+273,50,2022-09-17,2023,34,Storm Rovers,Counterattack,Yes,13,Goal,0.15,3,Yes,Open Play,Right wing close to box,Goal,Yes,3,Cutback,No,Quick Attack,Striker,Middle
+274,50,2022-09-17,2023,50,Storm Rovers,Corner,Yes,18,Saved by GK,0.27,1,No,Set Piece,Central outside box,Saved by GK,Yes,2,None,Yes,Quick Attack,Defender,Middle
+275,51,2022-09-19,2023,22,Eagle City,Counterattack,Yes,30,Missed,0.07,2,Yes,Fast Break,Central midfield,Turnover,No,-1,Cross,Yes,Slow Build-up,Winger,Early
+276,51,2022-09-19,2023,9,Eagle City,Pass Sequence,No,,,0.0,7,No,Fast Break,Right wing outside box,Retained Possession,Yes,1,Cutback,No,Quick Attack,Defender,Early
+277,51,2022-09-19,2023,15,Eagle City,Free Kick,Yes,9,Missed,0.57,3,Yes,Open Play,Left wing close to box,Turnover,No,-1,None,No,Slow Build-up,Defender,Early
+278,51,2022-09-19,2023,34,Eagle City,Free Kick,Yes,25,Saved by GK,0.14,2,Yes,Open Play,Right wing inside box,Saved by GK,Yes,2,Cross,No,Quick Attack,Defender,Middle
+279,51,2022-09-19,2023,43,Eagle City,Counterattack,Yes,6,Saved by GK,0.68,2,Yes,Set Piece,Right wing inside box,Retained Possession,Yes,1,Cutback,No,Quick Attack,Midfielder,Middle
+280,52,2022-09-25,2023,39,Lightning Athletic,Free Kick,Yes,29,On Target,0.09,2,Yes,Open Play,Left wing midfield,Saved by GK,Yes,2,Cross,No,Slow Build-up,Winger,Middle
+281,52,2022-09-25,2023,8,Lightning Athletic,Corner,Yes,30,Missed,0.06,3,No,Open Play,Right wing midfield,Turnover,No,-1,None,Yes,Quick Attack,Midfielder,Early
+282,52,2022-09-25,2023,8,Lightning Athletic,Counterattack,Yes,6,Saved by GK,0.42,2,Yes,Set Piece,Right wing outside box,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Midfielder,Early
+283,52,2022-09-25,2023,48,Lightning Athletic,Free Kick,Yes,24,Saved by GK,0.08,2,No,Set Piece,Left wing inside box,Retained Possession,Yes,1,None,No,Quick Attack,Defender,Middle
+284,52,2022-09-25,2023,7,Lightning Athletic,Counterattack,Yes,23,Missed,0.18,3,Yes,Fast Break,Left wing outside box,Turnover,No,-1,Cutback,No,Quick Attack,Striker,Early
+285,53,2022-10-04,2023,17,Firestorm FC,Counterattack,Yes,24,Goal,0.08,3,No,Fast Break,Right wing close to box,Goal,Yes,3,Cutback,No,Slow Build-up,Winger,Early
+286,53,2022-10-04,2023,59,Firestorm FC,Shot Attempt,Yes,11,Saved by GK,0.19,3,No,Fast Break,Central outside box,Goal,No,3,Cutback,No,Slow Build-up,Striker,Middle
+287,53,2022-10-04,2023,62,Firestorm FC,Pass Sequence,No,,,0.0,6,No,Fast Break,Right wing outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Midfielder,Late
+288,53,2022-10-04,2023,20,Firestorm FC,Corner,Yes,29,Missed,0.18,3,No,Fast Break,Right wing outside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Winger,Early
+289,53,2022-10-04,2023,34,Firestorm FC,Free Kick,Yes,17,Saved by GK,0.32,3,Yes,Set Piece,Left wing outside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Midfielder,Middle
+290,53,2022-10-04,2023,38,Firestorm FC,Pass Sequence,No,,,0.0,8,Yes,Fast Break,Right wing inside box,Retained Possession,Yes,1,Cross,No,Quick Attack,Midfielder,Middle
+291,54,2022-10-08,2023,29,Crimson Wolves,Shot Attempt,Yes,18,On Target,0.21,3,No,Set Piece,Central outside box,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Defender,Early
+292,54,2022-10-08,2023,25,Crimson Wolves,Corner,Yes,8,Saved by GK,0.56,2,Yes,Open Play,Left wing inside box,Turnover,No,-1,Cutback,No,Slow Build-up,Midfielder,Early
+293,54,2022-10-08,2023,41,Crimson Wolves,Counterattack,Yes,29,Goal,0.12,3,Yes,Set Piece,Right wing close to box,Goal,Yes,3,None,Yes,Slow Build-up,Winger,Middle
+294,54,2022-10-08,2023,27,Crimson Wolves,Counterattack,Yes,23,Missed,0.12,1,Yes,Fast Break,Central midfield,Turnover,No,-1,Through Ball,No,Slow Build-up,Defender,Early
+295,54,2022-10-08,2023,50,Crimson Wolves,Pass Sequence,No,,,0.0,1,Yes,Fast Break,Right wing outside box,Retained Possession,Yes,1,None,No,Quick Attack,Striker,Middle
+296,54,2022-10-08,2023,87,Crimson Wolves,Pass Sequence,No,,,0.0,4,Yes,Fast Break,Right wing outside box,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Defender,Late
+297,55,2022-10-09,2023,22,Golden Lions,Pass Sequence,No,,,0.0,1,No,Set Piece,Left wing midfield,Retained Possession,Yes,1,Cutback,No,Quick Attack,Winger,Early
+298,55,2022-10-09,2023,63,Golden Lions,Shot Attempt,Yes,29,Missed,0.07,2,Yes,Open Play,Left wing outside box,Turnover,No,-1,Cross,Yes,Quick Attack,Midfielder,Late
+299,55,2022-10-09,2023,16,Golden Lions,Shot Attempt,Yes,27,Goal,0.11,3,No,Fast Break,Left wing close to box,Goal,Yes,3,None,Yes,Quick Attack,Striker,Early
+300,55,2022-10-09,2023,7,Golden Lions,Pass Sequence,No,,,0.0,7,No,Set Piece,Central outside box,Retained Possession,Yes,1,Cutback,No,Quick Attack,Midfielder,Early
+301,55,2022-10-09,2023,89,Golden Lions,Pass Sequence,No,,,0.0,5,No,Fast Break,Central outside box,Retained Possession,Yes,1,Cutback,Yes,Slow Build-up,Striker,Late
+302,55,2022-10-09,2023,66,Golden Lions,Corner,Yes,8,On Target,0.43,1,No,Open Play,Left wing close to box,Saved by GK,Yes,2,Cross,No,Quick Attack,Winger,Late
+303,56,2022-10-22,2023,38,Silver Hawks,Counterattack,Yes,6,Saved by GK,0.67,3,No,Set Piece,Left wing outside box,Goal,No,3,None,Yes,Quick Attack,Defender,Middle
+304,56,2022-10-22,2023,20,Silver Hawks,Pass Sequence,No,,,0.0,2,Yes,Set Piece,Right wing close to box,Retained Possession,Yes,1,Cross,No,Slow Build-up,Winger,Early
+305,56,2022-10-22,2023,60,Silver Hawks,Pass Sequence,No,,,0.0,2,Yes,Open Play,Right wing inside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Striker,Late
+306,56,2022-10-22,2023,13,Silver Hawks,Pass Sequence,No,,,0.0,1,Yes,Fast Break,Right wing close to box,Retained Possession,Yes,1,Cross,No,Slow Build-up,Defender,Early
+307,56,2022-10-22,2023,80,Silver Hawks,Shot Attempt,Yes,28,Goal,0.11,2,Yes,Open Play,Central midfield,Goal,Yes,3,Through Ball,No,Slow Build-up,Defender,Late
+308,56,2022-10-22,2023,89,Silver Hawks,Free Kick,Yes,30,Saved by GK,0.15,1,Yes,Open Play,Central inside box,Turnover,No,-1,None,No,Slow Build-up,Defender,Late
+309,57,2022-11-02,2023,79,Blue Sharks,Free Kick,Yes,29,On Target,0.14,3,Yes,Set Piece,Left wing midfield,Saved by GK,Yes,2,None,No,Slow Build-up,Striker,Late
+310,57,2022-11-02,2023,9,Blue Sharks,Shot Attempt,Yes,25,On Target,0.05,3,Yes,Fast Break,Right wing outside box,Saved by GK,Yes,2,None,No,Quick Attack,Defender,Early
+311,57,2022-11-02,2023,45,Blue Sharks,Free Kick,Yes,9,Goal,0.4,1,No,Set Piece,Left wing inside box,Goal,Yes,3,None,No,Slow Build-up,Midfielder,Middle
+312,57,2022-11-02,2023,43,Blue Sharks,Shot Attempt,Yes,6,Missed,0.57,2,No,Open Play,Central outside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Striker,Middle
+313,57,2022-11-02,2023,64,Blue Sharks,Free Kick,Yes,15,Goal,0.39,3,Yes,Open Play,Central midfield,Goal,Yes,3,Through Ball,Yes,Quick Attack,Striker,Late
+314,58,2022-11-08,2023,66,Green Dragons,Corner,Yes,11,Saved by GK,0.39,2,Yes,Open Play,Left wing midfield,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Striker,Late
+315,58,2022-11-08,2023,13,Green Dragons,Counterattack,Yes,5,On Target,0.51,3,No,Fast Break,Right wing midfield,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Midfielder,Early
+316,58,2022-11-08,2023,64,Green Dragons,Counterattack,Yes,27,Saved by GK,0.07,3,Yes,Open Play,Central outside box,Saved by GK,Yes,2,Cross,No,Quick Attack,Winger,Late
+317,58,2022-11-08,2023,14,Green Dragons,Free Kick,Yes,6,Goal,0.63,2,No,Fast Break,Left wing close to box,Goal,Yes,3,Cross,No,Quick Attack,Striker,Early
+318,58,2022-11-08,2023,71,Green Dragons,Free Kick,Yes,23,Saved by GK,0.19,1,Yes,Fast Break,Left wing inside box,Goal,No,3,Through Ball,No,Slow Build-up,Defender,Late
+319,58,2022-11-08,2023,78,Green Dragons,Counterattack,Yes,13,Saved by GK,0.39,2,No,Open Play,Left wing inside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Midfielder,Late
+320,59,2022-11-24,2023,80,Purple Panthers,Shot Attempt,Yes,26,On Target,0.19,1,Yes,Fast Break,Right wing midfield,Saved by GK,Yes,2,Cutback,Yes,Slow Build-up,Defender,Late
+321,59,2022-11-24,2023,75,Purple Panthers,Corner,Yes,26,Saved by GK,0.15,3,No,Set Piece,Central inside box,Goal,No,3,None,No,Quick Attack,Striker,Late
+322,59,2022-11-24,2023,86,Purple Panthers,Pass Sequence,No,,,0.0,4,No,Open Play,Right wing inside box,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Winger,Late
+323,59,2022-11-24,2023,27,Purple Panthers,Corner,Yes,6,On Target,0.64,1,Yes,Fast Break,Right wing close to box,Saved by GK,Yes,2,Through Ball,Yes,Slow Build-up,Striker,Early
+324,59,2022-11-24,2023,49,Purple Panthers,Free Kick,Yes,18,On Target,0.39,1,Yes,Fast Break,Right wing inside box,Saved by GK,Yes,2,Cross,No,Quick Attack,Winger,Middle
+325,60,2022-11-25,2023,25,Orange Tigers,Shot Attempt,Yes,19,Missed,0.4,1,Yes,Open Play,Right wing midfield,Turnover,No,-1,None,No,Quick Attack,Defender,Early
+326,60,2022-11-25,2023,36,Orange Tigers,Corner,Yes,13,Missed,0.15,2,Yes,Set Piece,Left wing midfield,Turnover,No,-1,Cross,Yes,Quick Attack,Winger,Middle
+327,60,2022-11-25,2023,77,Orange Tigers,Pass Sequence,No,,,0.0,5,No,Fast Break,Right wing midfield,Retained Possession,Yes,1,Cutback,Yes,Slow Build-up,Midfielder,Late
+328,60,2022-11-25,2023,24,Orange Tigers,Corner,Yes,7,Missed,0.52,3,No,Open Play,Right wing outside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Winger,Early
+329,60,2022-11-25,2023,47,Orange Tigers,Shot Attempt,Yes,11,Saved by GK,0.4,3,Yes,Open Play,Right wing close to box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Striker,Middle
+330,61,2022-11-26,2023,49,Red Bulls,Pass Sequence,No,,,0.0,7,No,Fast Break,Right wing inside box,Retained Possession,Yes,1,None,No,Slow Build-up,Defender,Middle
+331,61,2022-11-26,2023,6,Red Bulls,Shot Attempt,Yes,25,Missed,0.1,1,Yes,Open Play,Right wing midfield,Turnover,No,-1,None,Yes,Quick Attack,Midfielder,Early
+332,61,2022-11-26,2023,88,Red Bulls,Free Kick,Yes,8,Missed,0.56,3,No,Fast Break,Central outside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Winger,Late
+333,61,2022-11-26,2023,5,Red Bulls,Pass Sequence,No,,,0.0,2,Yes,Open Play,Right wing inside box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Defender,Early
+334,61,2022-11-26,2023,50,Red Bulls,Free Kick,Yes,25,Saved by GK,0.11,1,No,Fast Break,Central outside box,Goal,No,3,None,Yes,Quick Attack,Winger,Middle
+335,61,2022-11-26,2023,65,Red Bulls,Pass Sequence,No,,,0.0,5,No,Fast Break,Central outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Defender,Late
+336,62,2022-11-27,2023,61,Black Knights,Counterattack,Yes,22,Missed,0.07,2,No,Fast Break,Left wing inside box,Turnover,No,-1,Cutback,No,Quick Attack,Midfielder,Late
+337,62,2022-11-27,2023,16,Black Knights,Pass Sequence,No,,,0.0,1,No,Fast Break,Right wing midfield,Retained Possession,Yes,1,None,No,Quick Attack,Winger,Early
+338,62,2022-11-27,2023,28,Black Knights,Free Kick,Yes,25,Missed,0.07,1,No,Open Play,Central outside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Striker,Early
+339,62,2022-11-27,2023,38,Black Knights,Pass Sequence,No,,,0.0,5,Yes,Open Play,Left wing close to box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Midfielder,Middle
+340,62,2022-11-27,2023,86,Black Knights,Counterattack,Yes,8,On Target,0.59,1,No,Set Piece,Left wing midfield,Saved by GK,Yes,2,Cutback,No,Quick Attack,Winger,Late
+341,63,2022-12-06,2023,55,White Eagles,Counterattack,Yes,5,On Target,0.47,1,No,Set Piece,Right wing outside box,Saved by GK,Yes,2,Cross,No,Slow Build-up,Defender,Middle
+342,63,2022-12-06,2023,58,White Eagles,Shot Attempt,Yes,29,On Target,0.12,1,Yes,Fast Break,Left wing close to box,Saved by GK,Yes,2,None,No,Quick Attack,Midfielder,Middle
+343,63,2022-12-06,2023,34,White Eagles,Pass Sequence,No,,,0.0,2,Yes,Fast Break,Right wing close to box,Retained Possession,Yes,1,None,No,Quick Attack,Striker,Middle
+344,63,2022-12-06,2023,71,White Eagles,Shot Attempt,Yes,22,Saved by GK,0.15,1,No,Set Piece,Left wing outside box,Retained Possession,Yes,1,Cross,No,Quick Attack,Defender,Late
+345,63,2022-12-06,2023,47,White Eagles,Corner,Yes,5,Missed,0.65,3,Yes,Fast Break,Left wing inside box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Midfielder,Middle
+346,63,2022-12-06,2023,62,White Eagles,Shot Attempt,Yes,6,Missed,0.63,1,Yes,Set Piece,Right wing outside box,Turnover,No,-1,Cross,Yes,Quick Attack,Winger,Late
+347,64,2022-12-12,2023,61,Yellow Jackets,Free Kick,Yes,6,Goal,0.69,2,Yes,Fast Break,Right wing midfield,Goal,Yes,3,Cutback,No,Quick Attack,Defender,Late
+348,64,2022-12-12,2023,84,Yellow Jackets,Free Kick,Yes,16,Goal,0.25,2,Yes,Fast Break,Central midfield,Goal,Yes,3,Cutback,No,Slow Build-up,Defender,Late
+349,64,2022-12-12,2023,78,Yellow Jackets,Pass Sequence,No,,,0.0,3,No,Open Play,Left wing outside box,Retained Possession,Yes,1,None,No,Quick Attack,Midfielder,Late
+350,64,2022-12-12,2023,24,Yellow Jackets,Counterattack,Yes,16,Goal,0.3,2,No,Fast Break,Central outside box,Goal,Yes,3,Through Ball,No,Slow Build-up,Midfielder,Early
+351,64,2022-12-12,2023,76,Yellow Jackets,Counterattack,Yes,25,Saved by GK,0.05,1,Yes,Fast Break,Left wing close to box,Turnover,No,-1,Cross,Yes,Quick Attack,Striker,Late
+352,64,2022-12-12,2023,22,Yellow Jackets,Shot Attempt,Yes,10,Saved by GK,0.58,3,Yes,Fast Break,Right wing close to box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Defender,Early
+353,65,2022-12-13,2023,22,Maroon Stallions,Counterattack,Yes,18,Missed,0.34,1,No,Open Play,Right wing close to box,Turnover,No,-1,Cutback,No,Quick Attack,Midfielder,Early
+354,65,2022-12-13,2023,49,Maroon Stallions,Free Kick,Yes,9,Goal,0.4,3,No,Open Play,Left wing close to box,Goal,Yes,3,None,Yes,Slow Build-up,Striker,Middle
+355,65,2022-12-13,2023,69,Maroon Stallions,Corner,Yes,29,Goal,0.06,3,Yes,Fast Break,Right wing midfield,Goal,Yes,3,None,No,Slow Build-up,Winger,Late
+356,65,2022-12-13,2023,6,Maroon Stallions,Corner,Yes,18,Missed,0.38,2,No,Set Piece,Left wing close to box,Turnover,No,-1,None,No,Quick Attack,Winger,Early
+357,65,2022-12-13,2023,62,Maroon Stallions,Counterattack,Yes,7,On Target,0.58,3,No,Set Piece,Left wing outside box,Saved by GK,Yes,2,None,Yes,Quick Attack,Striker,Late
+358,65,2022-12-13,2023,49,Maroon Stallions,Counterattack,Yes,27,On Target,0.11,1,Yes,Set Piece,Right wing close to box,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Winger,Middle
+359,66,2022-12-26,2023,88,Navy Seals,Free Kick,Yes,29,Missed,0.11,3,No,Open Play,Right wing outside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Winger,Late
+360,66,2022-12-26,2023,51,Navy Seals,Counterattack,Yes,26,Goal,0.16,2,Yes,Open Play,Left wing outside box,Goal,Yes,3,Through Ball,No,Quick Attack,Midfielder,Middle
+361,66,2022-12-26,2023,50,Navy Seals,Pass Sequence,No,,,0.0,2,Yes,Set Piece,Left wing close to box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Winger,Middle
+362,66,2022-12-26,2023,29,Navy Seals,Shot Attempt,Yes,7,Goal,0.62,2,No,Fast Break,Left wing close to box,Goal,Yes,3,None,Yes,Slow Build-up,Defender,Early
+363,66,2022-12-26,2023,2,Navy Seals,Counterattack,Yes,26,On Target,0.08,3,Yes,Fast Break,Left wing inside box,Saved by GK,Yes,2,None,No,Quick Attack,Striker,Early
+364,66,2022-12-26,2023,21,Navy Seals,Pass Sequence,No,,,0.0,5,No,Set Piece,Right wing close to box,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Striker,Early
+365,67,2022-12-27,2023,12,Forest Rangers,Corner,Yes,14,On Target,0.2,2,Yes,Fast Break,Left wing outside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Winger,Early
+366,67,2022-12-27,2023,23,Forest Rangers,Free Kick,Yes,21,Goal,0.13,3,No,Set Piece,Central outside box,Goal,Yes,3,Cutback,No,Slow Build-up,Defender,Early
+367,67,2022-12-27,2023,73,Forest Rangers,Free Kick,Yes,29,Missed,0.16,2,No,Fast Break,Central inside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Striker,Late
+368,67,2022-12-27,2023,49,Forest Rangers,Counterattack,Yes,26,Missed,0.17,2,No,Fast Break,Right wing midfield,Turnover,No,-1,None,No,Quick Attack,Winger,Middle
+369,67,2022-12-27,2023,12,Forest Rangers,Free Kick,Yes,26,On Target,0.06,1,No,Set Piece,Right wing outside box,Saved by GK,Yes,2,Cross,No,Quick Attack,Midfielder,Early
+370,68,2022-12-28,2023,26,Thunder FC,Counterattack,Yes,28,Missed,0.18,1,Yes,Open Play,Left wing outside box,Turnover,No,-1,Cutback,Yes,Quick Attack,Striker,Early
+371,68,2022-12-28,2023,11,Thunder FC,Free Kick,Yes,24,Goal,0.16,3,Yes,Set Piece,Right wing outside box,Goal,Yes,3,Cutback,No,Slow Build-up,Defender,Early
+372,68,2022-12-28,2023,24,Thunder FC,Corner,Yes,13,Saved by GK,0.17,3,Yes,Open Play,Right wing midfield,Saved by GK,Yes,2,Through Ball,Yes,Slow Build-up,Defender,Early
+373,68,2022-12-28,2023,88,Thunder FC,Counterattack,Yes,19,Goal,0.31,2,No,Fast Break,Central inside box,Goal,Yes,3,None,Yes,Slow Build-up,Striker,Late
+374,68,2022-12-28,2023,42,Thunder FC,Shot Attempt,Yes,24,On Target,0.08,2,Yes,Set Piece,Left wing midfield,Saved by GK,Yes,2,Cutback,No,Quick Attack,Defender,Middle
+375,68,2022-12-28,2023,55,Thunder FC,Counterattack,Yes,18,On Target,0.21,2,No,Set Piece,Left wing inside box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Winger,Middle
+376,69,2023-01-08,2023,72,Phoenix United,Free Kick,Yes,17,Missed,0.14,3,Yes,Set Piece,Central inside box,Turnover,No,-1,Cross,No,Slow Build-up,Midfielder,Late
+377,69,2023-01-08,2023,81,Phoenix United,Corner,Yes,22,On Target,0.17,2,No,Fast Break,Left wing close to box,Saved by GK,Yes,2,None,No,Quick Attack,Midfielder,Late
+378,69,2023-01-08,2023,8,Phoenix United,Counterattack,Yes,13,Saved by GK,0.35,1,No,Fast Break,Right wing outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Winger,Early
+379,69,2023-01-08,2023,3,Phoenix United,Free Kick,Yes,8,On Target,0.66,3,Yes,Fast Break,Left wing close to box,Saved by GK,Yes,2,Cross,No,Slow Build-up,Winger,Early
+380,69,2023-01-08,2023,87,Phoenix United,Corner,Yes,20,Saved by GK,0.37,2,No,Set Piece,Right wing close to box,Turnover,No,-1,Cross,No,Slow Build-up,Defender,Late
+381,70,2023-01-11,2023,11,Storm Rovers,Counterattack,Yes,15,Missed,0.19,3,No,Fast Break,Right wing inside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Winger,Early
+382,70,2023-01-11,2023,76,Storm Rovers,Corner,Yes,19,Saved by GK,0.15,1,Yes,Fast Break,Left wing outside box,Retained Possession,Yes,1,None,Yes,Quick Attack,Defender,Late
+383,70,2023-01-11,2023,14,Storm Rovers,Pass Sequence,No,,,0.0,2,No,Fast Break,Central inside box,Retained Possession,Yes,1,None,No,Quick Attack,Striker,Early
+384,70,2023-01-11,2023,34,Storm Rovers,Corner,Yes,9,Goal,0.6,2,No,Open Play,Left wing outside box,Goal,Yes,3,Cutback,No,Quick Attack,Midfielder,Middle
+385,70,2023-01-11,2023,68,Storm Rovers,Counterattack,Yes,5,Goal,0.6,2,No,Set Piece,Right wing midfield,Goal,Yes,3,Cutback,No,Quick Attack,Midfielder,Late
+386,71,2023-01-19,2023,81,Eagle City,Corner,Yes,18,On Target,0.37,2,Yes,Open Play,Left wing midfield,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Winger,Late
+387,71,2023-01-19,2023,20,Eagle City,Shot Attempt,Yes,5,Goal,0.56,1,No,Set Piece,Left wing midfield,Goal,Yes,3,None,No,Slow Build-up,Winger,Early
+388,71,2023-01-19,2023,2,Eagle City,Free Kick,Yes,30,On Target,0.14,1,No,Open Play,Central midfield,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Midfielder,Early
+389,71,2023-01-19,2023,83,Eagle City,Free Kick,Yes,17,Missed,0.18,2,Yes,Fast Break,Left wing close to box,Turnover,No,-1,Cutback,No,Slow Build-up,Defender,Late
+390,71,2023-01-19,2023,25,Eagle City,Pass Sequence,No,,,0.0,3,Yes,Set Piece,Central outside box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Defender,Early
+391,71,2023-01-19,2023,25,Eagle City,Shot Attempt,Yes,5,Missed,0.41,3,Yes,Open Play,Central outside box,Turnover,No,-1,Cutback,No,Quick Attack,Defender,Early
+392,72,2023-01-26,2023,30,Lightning Athletic,Pass Sequence,No,,,0.0,3,Yes,Set Piece,Left wing outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Defender,Early
+393,72,2023-01-26,2023,48,Lightning Athletic,Free Kick,Yes,27,Goal,0.1,1,Yes,Set Piece,Central midfield,Goal,Yes,3,None,No,Quick Attack,Midfielder,Middle
+394,72,2023-01-26,2023,33,Lightning Athletic,Free Kick,Yes,5,Goal,0.69,3,Yes,Set Piece,Left wing midfield,Goal,Yes,3,Cross,Yes,Quick Attack,Defender,Middle
+395,72,2023-01-26,2023,13,Lightning Athletic,Corner,Yes,26,Missed,0.12,3,No,Set Piece,Left wing inside box,Turnover,No,-1,None,Yes,Slow Build-up,Defender,Early
+396,72,2023-01-26,2023,82,Lightning Athletic,Shot Attempt,Yes,11,On Target,0.37,3,Yes,Open Play,Left wing outside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Midfielder,Late
+397,73,2023-02-01,2023,75,Firestorm FC,Pass Sequence,No,,,0.0,7,Yes,Open Play,Central inside box,Retained Possession,Yes,1,Through Ball,Yes,Slow Build-up,Striker,Late
+398,73,2023-02-01,2023,32,Firestorm FC,Counterattack,Yes,20,Goal,0.31,2,Yes,Open Play,Right wing outside box,Goal,Yes,3,Cross,Yes,Quick Attack,Defender,Middle
+399,73,2023-02-01,2023,30,Firestorm FC,Shot Attempt,Yes,22,On Target,0.17,2,Yes,Open Play,Central midfield,Saved by GK,Yes,2,Cutback,Yes,Slow Build-up,Striker,Early
+400,73,2023-02-01,2023,63,Firestorm FC,Free Kick,Yes,22,On Target,0.13,2,Yes,Fast Break,Left wing inside box,Saved by GK,Yes,2,Cutback,No,Slow Build-up,Winger,Late
+401,73,2023-02-01,2023,77,Firestorm FC,Corner,Yes,10,Goal,0.56,2,No,Set Piece,Right wing midfield,Goal,Yes,3,Cutback,No,Quick Attack,Defender,Late
+402,73,2023-02-01,2023,24,Firestorm FC,Pass Sequence,No,,,0.0,6,Yes,Set Piece,Central outside box,Retained Possession,Yes,1,Through Ball,Yes,Slow Build-up,Midfielder,Early
+403,74,2023-02-12,2023,42,Crimson Wolves,Free Kick,Yes,25,On Target,0.07,3,Yes,Open Play,Left wing inside box,Saved by GK,Yes,2,Cross,Yes,Quick Attack,Striker,Middle
+404,74,2023-02-12,2023,63,Crimson Wolves,Counterattack,Yes,8,Goal,0.57,2,No,Fast Break,Left wing close to box,Goal,Yes,3,Cutback,Yes,Slow Build-up,Midfielder,Late
+405,74,2023-02-12,2023,78,Crimson Wolves,Pass Sequence,No,,,0.0,1,Yes,Fast Break,Left wing midfield,Retained Possession,Yes,1,None,No,Quick Attack,Winger,Late
+406,74,2023-02-12,2023,72,Crimson Wolves,Free Kick,Yes,16,Goal,0.35,2,Yes,Fast Break,Central outside box,Goal,Yes,3,Cutback,Yes,Quick Attack,Striker,Late
+407,74,2023-02-12,2023,13,Crimson Wolves,Counterattack,Yes,22,Saved by GK,0.08,3,Yes,Fast Break,Right wing close to box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Defender,Early
+408,74,2023-02-12,2023,90,Crimson Wolves,Free Kick,Yes,8,Missed,0.64,3,No,Fast Break,Right wing outside box,Turnover,No,-1,Cross,No,Slow Build-up,Winger,Late
+409,75,2023-02-19,2023,48,Golden Lions,Free Kick,Yes,29,Saved by GK,0.17,2,Yes,Fast Break,Right wing midfield,Turnover,No,-1,Through Ball,No,Slow Build-up,Defender,Middle
+410,75,2023-02-19,2023,58,Golden Lions,Free Kick,Yes,5,Goal,0.69,3,Yes,Fast Break,Left wing inside box,Goal,Yes,3,Cutback,Yes,Slow Build-up,Midfielder,Middle
+411,75,2023-02-19,2023,28,Golden Lions,Shot Attempt,Yes,5,On Target,0.68,3,Yes,Open Play,Central inside box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Midfielder,Early
+412,75,2023-02-19,2023,34,Golden Lions,Shot Attempt,Yes,23,Missed,0.08,2,Yes,Fast Break,Central midfield,Turnover,No,-1,Cross,Yes,Slow Build-up,Defender,Middle
+413,75,2023-02-19,2023,23,Golden Lions,Free Kick,Yes,27,Goal,0.14,2,Yes,Fast Break,Left wing close to box,Goal,Yes,3,Through Ball,Yes,Quick Attack,Winger,Early
+414,75,2023-02-19,2023,45,Golden Lions,Free Kick,Yes,18,Goal,0.36,1,Yes,Fast Break,Right wing close to box,Goal,Yes,3,Through Ball,Yes,Slow Build-up,Striker,Middle
+415,76,2023-02-23,2023,70,Silver Hawks,Corner,Yes,9,On Target,0.55,1,Yes,Open Play,Right wing close to box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Midfielder,Late
+416,76,2023-02-23,2023,56,Silver Hawks,Shot Attempt,Yes,30,Saved by GK,0.07,2,Yes,Set Piece,Left wing close to box,Goal,No,3,Through Ball,No,Quick Attack,Defender,Middle
+417,76,2023-02-23,2023,65,Silver Hawks,Free Kick,Yes,29,Missed,0.16,2,Yes,Set Piece,Central midfield,Turnover,No,-1,Cross,Yes,Quick Attack,Striker,Late
+418,76,2023-02-23,2023,35,Silver Hawks,Free Kick,Yes,15,Goal,0.13,2,No,Set Piece,Right wing outside box,Goal,Yes,3,Cross,No,Slow Build-up,Striker,Middle
+419,76,2023-02-23,2023,40,Silver Hawks,Counterattack,Yes,16,Saved by GK,0.29,2,Yes,Open Play,Left wing outside box,Retained Possession,Yes,1,Cross,Yes,Quick Attack,Striker,Middle
+420,76,2023-02-23,2023,32,Silver Hawks,Corner,Yes,9,On Target,0.4,3,Yes,Set Piece,Left wing midfield,Saved by GK,Yes,2,Through Ball,Yes,Slow Build-up,Midfielder,Middle
+421,77,2023-02-24,2023,27,Blue Sharks,Corner,Yes,21,On Target,0.13,3,Yes,Fast Break,Right wing close to box,Saved by GK,Yes,2,None,No,Quick Attack,Winger,Early
+422,77,2023-02-24,2023,22,Blue Sharks,Pass Sequence,No,,,0.0,5,Yes,Fast Break,Left wing close to box,Retained Possession,Yes,1,Cutback,Yes,Slow Build-up,Striker,Early
+423,77,2023-02-24,2023,9,Blue Sharks,Free Kick,Yes,26,On Target,0.15,3,No,Open Play,Central inside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Defender,Early
+424,77,2023-02-24,2023,66,Blue Sharks,Pass Sequence,No,,,0.0,6,No,Fast Break,Right wing midfield,Retained Possession,Yes,1,None,Yes,Quick Attack,Defender,Late
+425,77,2023-02-24,2023,72,Blue Sharks,Pass Sequence,No,,,0.0,1,Yes,Fast Break,Right wing inside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Midfielder,Late
+426,78,2023-02-28,2023,45,Green Dragons,Shot Attempt,Yes,16,On Target,0.17,3,No,Open Play,Right wing close to box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Winger,Middle
+427,78,2023-02-28,2023,29,Green Dragons,Counterattack,Yes,15,Saved by GK,0.3,1,No,Fast Break,Right wing close to box,Turnover,No,-1,Through Ball,Yes,Quick Attack,Defender,Early
+428,78,2023-02-28,2023,40,Green Dragons,Corner,Yes,15,Saved by GK,0.26,1,Yes,Fast Break,Right wing midfield,Turnover,No,-1,Cross,No,Quick Attack,Defender,Middle
+429,78,2023-02-28,2023,19,Green Dragons,Corner,Yes,10,On Target,0.42,3,Yes,Open Play,Right wing outside box,Saved by GK,Yes,2,Cross,Yes,Slow Build-up,Defender,Early
+430,78,2023-02-28,2023,53,Green Dragons,Shot Attempt,Yes,19,On Target,0.15,1,Yes,Open Play,Left wing inside box,Saved by GK,Yes,2,None,No,Quick Attack,Midfielder,Middle
+431,79,2023-03-05,2023,88,Purple Panthers,Pass Sequence,No,,,0.0,6,Yes,Fast Break,Left wing midfield,Retained Possession,Yes,1,Cross,No,Slow Build-up,Midfielder,Late
+432,79,2023-03-05,2023,50,Purple Panthers,Free Kick,Yes,20,Missed,0.15,1,Yes,Set Piece,Central inside box,Turnover,No,-1,Cutback,No,Quick Attack,Midfielder,Middle
+433,79,2023-03-05,2023,27,Purple Panthers,Pass Sequence,No,,,0.0,3,No,Fast Break,Left wing midfield,Retained Possession,Yes,1,Cutback,No,Quick Attack,Defender,Early
+434,79,2023-03-05,2023,52,Purple Panthers,Pass Sequence,No,,,0.0,7,No,Set Piece,Left wing close to box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Defender,Middle
+435,79,2023-03-05,2023,6,Purple Panthers,Counterattack,Yes,21,Saved by GK,0.2,1,No,Fast Break,Right wing close to box,Goal,No,3,Cross,No,Slow Build-up,Defender,Early
+436,80,2023-03-07,2023,37,Orange Tigers,Free Kick,Yes,10,Saved by GK,0.49,1,Yes,Set Piece,Right wing close to box,Saved by GK,Yes,2,None,Yes,Quick Attack,Midfielder,Middle
+437,80,2023-03-07,2023,51,Orange Tigers,Free Kick,Yes,15,Saved by GK,0.11,2,Yes,Set Piece,Central outside box,Retained Possession,Yes,1,Cutback,Yes,Quick Attack,Striker,Middle
+438,80,2023-03-07,2023,15,Orange Tigers,Free Kick,Yes,25,On Target,0.06,3,No,Fast Break,Right wing midfield,Saved by GK,Yes,2,Cross,No,Slow Build-up,Striker,Early
+439,80,2023-03-07,2023,22,Orange Tigers,Shot Attempt,Yes,23,Missed,0.07,1,Yes,Fast Break,Central inside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Defender,Early
+440,80,2023-03-07,2023,37,Orange Tigers,Counterattack,Yes,8,Missed,0.69,1,No,Open Play,Left wing midfield,Turnover,No,-1,Through Ball,No,Quick Attack,Defender,Middle
+441,80,2023-03-07,2023,31,Orange Tigers,Counterattack,Yes,23,Saved by GK,0.12,2,Yes,Fast Break,Left wing close to box,Goal,No,3,Cross,No,Quick Attack,Striker,Middle
+442,81,2023-03-19,2023,19,Red Bulls,Pass Sequence,No,,,0.0,6,Yes,Open Play,Central inside box,Retained Possession,Yes,1,Cutback,No,Quick Attack,Striker,Early
+443,81,2023-03-19,2023,14,Red Bulls,Free Kick,Yes,10,Missed,0.6,3,Yes,Set Piece,Left wing close to box,Turnover,No,-1,Cutback,Yes,Quick Attack,Winger,Early
+444,81,2023-03-19,2023,42,Red Bulls,Shot Attempt,Yes,17,Goal,0.33,3,Yes,Set Piece,Left wing midfield,Goal,Yes,3,Cross,Yes,Slow Build-up,Winger,Middle
+445,81,2023-03-19,2023,68,Red Bulls,Free Kick,Yes,21,Missed,0.15,3,Yes,Open Play,Left wing close to box,Turnover,No,-1,None,No,Slow Build-up,Defender,Late
+446,81,2023-03-19,2023,78,Red Bulls,Shot Attempt,Yes,13,On Target,0.38,3,No,Fast Break,Right wing close to box,Saved by GK,Yes,2,Through Ball,No,Quick Attack,Midfielder,Late
+447,82,2023-03-27,2023,25,Black Knights,Pass Sequence,No,,,0.0,2,Yes,Set Piece,Right wing close to box,Retained Possession,Yes,1,None,Yes,Slow Build-up,Defender,Early
+448,82,2023-03-27,2023,6,Black Knights,Shot Attempt,Yes,16,Missed,0.1,1,No,Set Piece,Central outside box,Turnover,No,-1,Cutback,No,Slow Build-up,Striker,Early
+449,82,2023-03-27,2023,15,Black Knights,Shot Attempt,Yes,15,Saved by GK,0.32,3,Yes,Open Play,Left wing outside box,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Striker,Early
+450,82,2023-03-27,2023,83,Black Knights,Counterattack,Yes,20,Missed,0.29,3,No,Set Piece,Central midfield,Turnover,No,-1,None,No,Slow Build-up,Striker,Late
+451,82,2023-03-27,2023,27,Black Knights,Corner,Yes,26,On Target,0.17,2,Yes,Open Play,Right wing inside box,Saved by GK,Yes,2,None,No,Slow Build-up,Midfielder,Early
+452,82,2023-03-27,2023,74,Black Knights,Corner,Yes,17,Missed,0.28,2,No,Fast Break,Central inside box,Turnover,No,-1,Cutback,No,Quick Attack,Defender,Late
+453,83,2023-03-31,2023,48,White Eagles,Free Kick,Yes,14,Missed,0.26,1,Yes,Set Piece,Central inside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Striker,Middle
+454,83,2023-03-31,2023,62,White Eagles,Corner,Yes,9,Missed,0.5,2,No,Set Piece,Left wing inside box,Turnover,No,-1,None,Yes,Quick Attack,Striker,Late
+455,83,2023-03-31,2023,59,White Eagles,Free Kick,Yes,27,Goal,0.05,1,Yes,Set Piece,Left wing midfield,Goal,Yes,3,None,Yes,Slow Build-up,Striker,Middle
+456,83,2023-03-31,2023,74,White Eagles,Shot Attempt,Yes,25,Missed,0.1,1,No,Set Piece,Right wing midfield,Turnover,No,-1,Cutback,No,Quick Attack,Winger,Late
+457,83,2023-03-31,2023,20,White Eagles,Counterattack,Yes,13,Goal,0.1,3,Yes,Open Play,Right wing midfield,Goal,Yes,3,Cutback,No,Slow Build-up,Midfielder,Early
+458,84,2023-04-02,2023,74,Yellow Jackets,Counterattack,Yes,10,Goal,0.49,2,No,Open Play,Left wing inside box,Goal,Yes,3,None,No,Quick Attack,Striker,Late
+459,84,2023-04-02,2023,50,Yellow Jackets,Pass Sequence,No,,,0.0,2,No,Set Piece,Left wing inside box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Winger,Middle
+460,84,2023-04-02,2023,26,Yellow Jackets,Corner,Yes,7,Saved by GK,0.57,1,No,Open Play,Left wing midfield,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Midfielder,Early
+461,84,2023-04-02,2023,19,Yellow Jackets,Corner,Yes,13,On Target,0.22,3,No,Set Piece,Left wing midfield,Saved by GK,Yes,2,Through Ball,Yes,Quick Attack,Defender,Early
+462,84,2023-04-02,2023,15,Yellow Jackets,Shot Attempt,Yes,20,Saved by GK,0.35,2,No,Fast Break,Left wing close to box,Turnover,No,-1,None,No,Quick Attack,Winger,Early
+463,84,2023-04-02,2023,72,Yellow Jackets,Pass Sequence,No,,,0.0,5,No,Set Piece,Left wing close to box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Midfielder,Late
+464,85,2023-04-06,2023,50,Maroon Stallions,Pass Sequence,No,,,0.0,6,Yes,Fast Break,Left wing close to box,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Midfielder,Middle
+465,85,2023-04-06,2023,23,Maroon Stallions,Pass Sequence,No,,,0.0,8,Yes,Fast Break,Left wing close to box,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Defender,Early
+466,85,2023-04-06,2023,23,Maroon Stallions,Shot Attempt,Yes,17,Goal,0.28,3,No,Set Piece,Left wing midfield,Goal,Yes,3,None,Yes,Quick Attack,Midfielder,Early
+467,85,2023-04-06,2023,75,Maroon Stallions,Pass Sequence,No,,,0.0,3,Yes,Set Piece,Right wing midfield,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Midfielder,Late
+468,85,2023-04-06,2023,27,Maroon Stallions,Shot Attempt,Yes,14,On Target,0.38,2,No,Open Play,Left wing close to box,Saved by GK,Yes,2,None,No,Quick Attack,Winger,Early
+469,85,2023-04-06,2023,8,Maroon Stallions,Shot Attempt,Yes,22,Goal,0.05,3,No,Open Play,Right wing inside box,Goal,Yes,3,None,Yes,Slow Build-up,Defender,Early
+470,86,2023-04-10,2023,49,Navy Seals,Free Kick,Yes,17,Saved by GK,0.26,3,Yes,Set Piece,Left wing inside box,Turnover,No,-1,Through Ball,No,Slow Build-up,Midfielder,Middle
+471,86,2023-04-10,2023,37,Navy Seals,Counterattack,Yes,9,Goal,0.42,1,Yes,Fast Break,Left wing midfield,Goal,Yes,3,Through Ball,Yes,Quick Attack,Midfielder,Middle
+472,86,2023-04-10,2023,83,Navy Seals,Free Kick,Yes,19,Saved by GK,0.29,2,No,Fast Break,Left wing midfield,Saved by GK,Yes,2,Cutback,Yes,Quick Attack,Defender,Late
+473,86,2023-04-10,2023,78,Navy Seals,Pass Sequence,No,,,0.0,8,Yes,Fast Break,Right wing midfield,Retained Possession,Yes,1,Cutback,No,Slow Build-up,Striker,Late
+474,86,2023-04-10,2023,5,Navy Seals,Corner,Yes,20,On Target,0.13,2,Yes,Open Play,Right wing midfield,Saved by GK,Yes,2,Cutback,No,Quick Attack,Striker,Early
+475,86,2023-04-10,2023,32,Navy Seals,Free Kick,Yes,25,Goal,0.15,3,No,Fast Break,Central inside box,Goal,Yes,3,Cutback,Yes,Slow Build-up,Defender,Middle
+476,87,2023-04-16,2023,74,Forest Rangers,Shot Attempt,Yes,18,On Target,0.39,2,No,Open Play,Central inside box,Saved by GK,Yes,2,Cutback,No,Quick Attack,Defender,Late
+477,87,2023-04-16,2023,75,Forest Rangers,Counterattack,Yes,23,Goal,0.15,2,Yes,Set Piece,Left wing midfield,Goal,Yes,3,None,Yes,Quick Attack,Winger,Late
+478,87,2023-04-16,2023,33,Forest Rangers,Counterattack,Yes,24,On Target,0.09,2,Yes,Fast Break,Central outside box,Saved by GK,Yes,2,Cross,Yes,Slow Build-up,Winger,Middle
+479,87,2023-04-16,2023,23,Forest Rangers,Shot Attempt,Yes,30,Missed,0.12,3,Yes,Set Piece,Central outside box,Turnover,No,-1,Cross,Yes,Slow Build-up,Defender,Early
+480,87,2023-04-16,2023,50,Forest Rangers,Counterattack,Yes,26,Saved by GK,0.16,1,Yes,Fast Break,Right wing outside box,Goal,No,3,Cutback,Yes,Quick Attack,Midfielder,Middle
+481,87,2023-04-16,2023,60,Forest Rangers,Free Kick,Yes,20,On Target,0.24,3,Yes,Set Piece,Right wing close to box,Saved by GK,Yes,2,Through Ball,No,Slow Build-up,Midfielder,Late
+482,88,2023-04-18,2023,2,Thunder FC,Shot Attempt,Yes,30,Saved by GK,0.11,2,Yes,Open Play,Right wing midfield,Retained Possession,Yes,1,Through Ball,No,Slow Build-up,Winger,Early
+483,88,2023-04-18,2023,35,Thunder FC,Pass Sequence,No,,,0.0,5,No,Set Piece,Right wing close to box,Retained Possession,Yes,1,Cross,Yes,Slow Build-up,Midfielder,Middle
+484,88,2023-04-18,2023,41,Thunder FC,Corner,Yes,5,Goal,0.65,1,No,Open Play,Right wing midfield,Goal,Yes,3,None,No,Slow Build-up,Midfielder,Middle
+485,88,2023-04-18,2023,37,Thunder FC,Shot Attempt,Yes,11,Goal,0.11,1,Yes,Fast Break,Right wing close to box,Goal,Yes,3,Cross,Yes,Quick Attack,Striker,Middle
+486,88,2023-04-18,2023,78,Thunder FC,Counterattack,Yes,17,Missed,0.37,3,Yes,Set Piece,Right wing inside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Winger,Late
+487,88,2023-04-18,2023,55,Thunder FC,Shot Attempt,Yes,13,Missed,0.33,2,Yes,Set Piece,Central midfield,Turnover,No,-1,Cutback,Yes,Slow Build-up,Winger,Middle
+488,89,2021-08-07,2022,16,Thunder FC,Corner,Yes,22,On Target,0.1,2,No,Open Play,Right wing close to box,Saved by GK,Yes,2,None,No,Slow Build-up,Striker,Early
+489,89,2021-08-07,2022,59,Thunder FC,Shot Attempt,Yes,25,Missed,0.08,1,No,Fast Break,Left wing outside box,Turnover,No,-1,Cutback,No,Quick Attack,Winger,Middle
+490,89,2021-08-07,2022,63,Thunder FC,Pass Sequence,No,,,0.0,8,Yes,Open Play,Central inside box,Retained Possession,Yes,1,Cross,Yes,Quick Attack,Defender,Late
+491,89,2021-08-07,2022,50,Thunder FC,Pass Sequence,No,,,0.0,5,No,Fast Break,Left wing midfield,Retained Possession,Yes,1,None,Yes,Slow Build-up,Striker,Middle
+492,89,2021-08-07,2022,44,Thunder FC,Pass Sequence,No,,,0.0,7,Yes,Open Play,Right wing close to box,Retained Possession,Yes,1,Through Ball,Yes,Quick Attack,Striker,Middle
+493,89,2021-08-07,2022,5,Thunder FC,Counterattack,Yes,20,Goal,0.24,3,Yes,Open Play,Right wing close to box,Goal,Yes,3,Cross,Yes,Quick Attack,Striker,Early
+494,90,2021-08-16,2022,13,Phoenix United,Free Kick,Yes,24,Missed,0.18,1,Yes,Open Play,Left wing midfield,Turnover,No,-1,Cross,Yes,Quick Attack,Defender,Early
+495,90,2021-08-16,2022,44,Phoenix United,Free Kick,Yes,15,Goal,0.39,3,Yes,Set Piece,Left wing outside box,Goal,Yes,3,None,Yes,Slow Build-up,Striker,Middle
+496,90,2021-08-16,2022,16,Phoenix United,Shot Attempt,Yes,9,Saved by GK,0.45,2,Yes,Set Piece,Left wing outside box,Goal,No,3,Cross,Yes,Slow Build-up,Midfielder,Early
+497,90,2021-08-16,2022,3,Phoenix United,Free Kick,Yes,7,Goal,0.4,1,No,Set Piece,Left wing midfield,Goal,Yes,3,Cross,Yes,Quick Attack,Winger,Early
+498,90,2021-08-16,2022,67,Phoenix United,Free Kick,Yes,18,Missed,0.38,3,Yes,Fast Break,Left wing inside box,Turnover,No,-1,Through Ball,Yes,Slow Build-up,Winger,Late
+499,90,2021-08-16,2022,54,Phoenix United,Pass Sequence,No,,,0.0,4,Yes,Open Play,Right wing midfield,Retained Possession,Yes,1,None,No,Quick Attack,Defender,Middle
+500,91,2021-08-20,2022,36,Storm Rovers,Pass Sequence,No,,,0.0,4,Yes,Open Play,Right wing close to box,Retained Possession,Yes,1,Through Ball,No,Quick Attack,Midfielder,Middle
