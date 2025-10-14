@@ -79,9 +79,6 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Temporary dataset
-dataset1.csv
-
 .gitignore
 
-dataset.csv
+match_data.csv

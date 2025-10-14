@@ -19,11 +19,11 @@ This local soccer tracker enables users to explore questions such as:
 
 ## 📈 Dataset Statistics
 
-- **Total Rows**: 10,001 (10,000 data rows + 1 header)
-- **Total Games**: 1,812 matches
-- **Date Range**: March 2024 → December 2005 (20 seasons)
+- **Total Rows**: 4973 
+- **Total Games**: 901 matches
+- **Date Range**: March 2024 → May 2005 (20 seasons)
 - **Teams**: 20 opponent teams
-- **Seasons Covered**: 20 seasons with descending chronological order
+- **Seasons Covered**: 20 seasons 
 
 ## 🏆 Team Structure
 
