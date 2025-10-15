@@ -4,17 +4,17 @@ generate_dataset.py
 
 .gitignore
 
-match_data.csv
+#match_data.csv
 
 .env
 
 researcher.js
 
-server.js
+#server.js
 
 # for page 2 visualisation
-chart-data.js 
+#chart-data.js 
 
-comprehensive-data.js
+#comprehensive-data.js
 
 test.html
