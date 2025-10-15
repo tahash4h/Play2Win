@@ -8,13 +8,11 @@ generate_dataset.py
 
 .env
 
-#researcher.js
+researcher.js
 
 #server.js
 
 # for page 2 visualisation
-#chart-data.js 
-
 #comprehensive-data.js
 
-#test.html
+test.html
