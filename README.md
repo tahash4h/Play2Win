@@ -23,7 +23,6 @@ This local soccer tracker enables users to explore questions such as:
 - **Total Games**: 901 matches
 - **Date Range**: March 2024 → May 2005 (20 seasons)
 - **Teams**: 20 opponent teams
-- **Seasons Covered**: 20 seasons 
 
 ## 🏆 Team Structure
 
@@ -40,8 +39,8 @@ Each season cycles through all 20 opponent teams, ensuring consistent representa
 ## 📋 Dataset Columns Explained
 
 ### **Core Identifiers**
-- **ID**: Sequential identifier from 1-10,000 for each play/row
-- **Game ID**: Unique identifier for each match (1-~2,000)
+- **ID**: Sequential identifier from 1-4973 for each play/row
+- **Game ID**: Unique identifier for each match (1-~900)
 - **Date**: Match date in YYYY-MM-DD format
 - **Season**: Year of the season (2005-2024)
 
@@ -129,35 +128,6 @@ Each season cycles through all 20 opponent teams, ensuring consistent representa
 - **Balanced Play Types**: Realistic distribution of different play types
 - **Tactical Variety**: Comprehensive coverage of soccer situations
 
-## 📊 Usage Examples
-
-### **Performance Analysis**
-```sql
--- Find most effective play types
-SELECT Play_Type, AVG(Win_Impact) as Avg_Impact
-FROM dataset 
-GROUP BY Play_Type
-ORDER BY Avg_Impact DESC;
-```
-
-### **Team Comparison**
-```sql
--- Compare team performance by season
-SELECT Season, Opponent, COUNT(*) as Total_Plays, 
-       SUM(CASE WHEN Outcome = 'Goal' THEN 1 ELSE 0 END) as Goals
-FROM dataset 
-GROUP BY Season, Opponent
-ORDER BY Season DESC, Goals DESC;
-```
-
-### **Tactical Trends**
-```sql
--- Analyze play speed trends over time
-SELECT Season, Play_Speed, COUNT(*) as Count
-FROM dataset 
-GROUP BY Season, Play_Speed
-ORDER BY Season DESC;
-```
 
 ## 🚀 Getting Started
 
@@ -177,42 +147,29 @@ ORDER BY Season DESC;
 
 ## 📁 File Structure
 
+So far:
 ```
 Play2Win/
-├── dataset.csv          # Main dataset (10,001 rows)
+├── sample_data.csv      # Main dataset (4973 rows)
 ├── README.md            # This documentation
 ├── index.html           # Web interface (if applicable)
 └── .gitignore           # Git ignore file
 ```
 
-## 🔧 Technical Notes
+## 🔧 Technical Notes 
 
+With respect to the dataset:
 - **File Format**: CSV with UTF-8 encoding
 - **Delimiter**: Comma-separated values
 - **Missing Values**: Empty strings for non-applicable fields
 - **Data Types**: Mixed (strings, integers, decimals)
-- **File Size**: Approximately 2-3 MB
-
-## 📈 Research Applications
-
-- **Local Sports Analytics**: Performance analysis and pattern recognition
-- **JavaScript Learning**: Data manipulation and visualization techniques
-- **Interactive Dashboards**: Creating user-friendly data exploration interfaces
-- **Tactical Analysis**: Understanding play patterns and effectiveness
-- **Statistical Modeling**: Time series analysis and trend detection
-- **Data Visualization**: Creating interactive charts and graphs
-- **Educational Tool**: Learning data analysis concepts with realistic sports data
+- **File Size**: Approximately 806 KB
 
 ## 🤝 Contributing
 
-This dataset is designed for research and educational purposes. If you use this data in your research, please cite appropriately and consider sharing your findings.
+The dataset used in the project is designed for research and educational purposes. If you use this data in your research, please cite appropriately and consider sharing your findings.
 
 ## 📄 License
 
-This dataset is provided for educational and research purposes. Please use responsibly and in accordance with your institution's data usage policies.
+This dataset used in the project is provided for educational and research purposes. Please use responsibly and in accordance with your institution's data usage policies.
 
----
-
-**Generated**: 2024  
-**Last Updated**: 2024  
-**Dataset Version**: 1.0
