@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Advanced Scatter Plot Matrix</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    
+    .dashboard-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .dashboard-title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .dashboard-subtitle {
+      font-size: 16px;
+      color: #666;
+    }
+    
+    .controls-panel {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    
+    .control-label {
+      font-weight: bold;
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .control-select {
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    .scatter-matrix {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .scatter-plot {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .scatter-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #333;
+    }
+    
+    .scatter-container {
+      position: relative;
+      height: 300px;
+    }
+    
+    .loading {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+      padding: 40px;
+    }
+    
+    .error {
+      text-align: center;
+      color: #e74c3c;
+      font-weight: bold;
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard-header">
+    <div class="dashboard-title">Advanced Scatter Plot Matrix</div>
+    <div class="dashboard-subtitle">Multiple correlation analyses with interactive filtering</div>
+  </div>
+
+  <div class="controls-panel">
+    <div class="control-group">
+      <label class="control-label">Opponent:</label>
+      <select id="opponentFilter" class="control-select">
+        <option value="all">All Opponents</option>
+      </select>
+    </div>
+    
+    <div class="control-group">
+      <label class="control-label">Game Phase:</label>
+      <select id="phaseFilter" class="control-select">
+        <option value="all">All Phases</option>
+      </select>
+    </div>
+    
+    <div class="control-group">
+      <label class="control-label">Play Context:</label>
+      <select id="contextFilter" class="control-select">
+        <option value="all">All Contexts</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="scatter-matrix">
+    <div class="scatter-plot">
+      <div class="scatter-title">Distance vs Expected Goals (xG)</div>
+      <div class="scatter-container">
+        <canvas id="distanceXGChart"></canvas>
+      </div>
+    </div>
+    
+    <div class="scatter-plot">
+      <div class="scatter-title">Match Minute vs Success Rate</div>
+      <div class="scatter-container">
+        <canvas id="minuteSuccessChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let distanceXGChart;
+    let minuteSuccessChart;
+    let comprehensiveData;
+
+    async function loadComprehensiveData() {
+      try {
+        const response = await fetch('/api/comprehensive-data');
+        comprehensiveData = await response.json();
+        
+        populateFilters();
+        renderAllCharts();
+        
+      } catch (error) {
+        console.error('Error loading comprehensive data:', error);
+        document.querySelector('.scatter-matrix').innerHTML = 
+          '<div class="error">Error loading comprehensive data. Please check if the server is running.</div>';
+      }
+    }
+
+    function populateFilters() {
+      // Populate opponent filter
+      const opponentFilter = document.getElementById('opponentFilter');
+      const opponents = [...new Set(comprehensiveData.games.map(game => game.opponent))];
+      opponents.forEach(opponent => {
+        const option = document.createElement('option');
+        option.value = opponent;
+        option.textContent = opponent;
+        opponentFilter.appendChild(option);
+      });
+
+      // Populate phase filter
+      const phaseFilter = document.getElementById('phaseFilter');
+      const phases = ['Early', 'Middle', 'Late'];
+      phases.forEach(phase => {
+        const option = document.createElement('option');
+        option.value = phase;
+        option.textContent = phase;
+        phaseFilter.appendChild(option);
+      });
+
+      // Populate context filter
+      const contextFilter = document.getElementById('contextFilter');
+      const contexts = [...new Set(comprehensiveData.games.flatMap(game => 
+        game.plays.map(play => play.playContext)
+      ).filter(context => context))];
+      contexts.forEach(context => {
+        const option = document.createElement('option');
+        option.value = context;
+        option.textContent = context;
+        contextFilter.appendChild(option);
+      });
+    }
+
+    function getFilteredData() {
+      const selectedOpponent = document.getElementById('opponentFilter').value;
+      const selectedPhase = document.getElementById('phaseFilter').value;
+      const selectedContext = document.getElementById('contextFilter').value;
+      
+      let filteredGames = comprehensiveData.games;
+      if (selectedOpponent !== 'all') {
+        filteredGames = filteredGames.filter(game => game.opponent === selectedOpponent);
+      }
+      
+      let allPlays = filteredGames.flatMap(game => game.plays);
+      
+      if (selectedPhase !== 'all') {
+        allPlays = allPlays.filter(play => play.phaseOfMatch === selectedPhase);
+      }
+      
+      if (selectedContext !== 'all') {
+        allPlays = allPlays.filter(play => play.playContext === selectedContext);
+      }
+      
+      return allPlays;
+    }
+
+    function renderAllCharts() {
+      renderDistanceXGChart();
+      renderMinuteSuccessChart();
+    }
+
+    function renderDistanceXGChart() {
+      const ctx = document.getElementById('distanceXGChart').getContext('2d');
+      
+      if (distanceXGChart) {
+        distanceXGChart.destroy();
+      }
+
+      const shotData = getFilteredData().filter(play => 
+        play.shotAttempt === 'Yes' && play.shotDistance && play.xG > 0
+      );
+
+      distanceXGChart = new Chart(ctx, {
+        type: 'scatter',
+        data: {
+          datasets: [{
+            label: 'Shots',
+            data: shotData.map(shot => ({
+              x: shot.shotDistance,
+              y: shot.xG,
+              outcome: shot.shotOutcome,
+              playType: shot.playType,
+              context: shot.playContext,
+              location: shot.location,
+              opponent: shot.opponent || 'Unknown'
+            })),
+            backgroundColor: 'rgba(54, 162, 235, 0.6)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            pointRadius: 4,
+            pointHoverRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                title: function(context) {
+                  const point = context[0].raw;
+                  return `${point.playType} - ${point.outcome}`;
+                },
+                label: function(context) {
+                  const point = context[0].raw;
+                  return [
+                    `Distance: ${point.x} yards`,
+                    `xG: ${point.y.toFixed(2)}`,
+                    `Context: ${point.context}`,
+                    `Location: ${point.location}`,
+                    `Opponent: ${point.opponent}`
+                  ];
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Shot Distance (yards)'
+              }
+            },
+            y: {
+              title: {
+                display: true,
+                text: 'Expected Goals (xG)'
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function renderMinuteSuccessChart() {
+      const ctx = document.getElementById('minuteSuccessChart').getContext('2d');
+      
+      if (minuteSuccessChart) {
+        minuteSuccessChart.destroy();
+      }
+
+      const shotData = getFilteredData().filter(play => play.shotAttempt === 'Yes');
+
+      // Group by minute ranges and calculate success rates
+      const minuteRanges = {};
+      shotData.forEach(play => {
+        const range = Math.floor(play.minute / 10) * 10; // 10-minute ranges
+        if (!minuteRanges[range]) {
+          minuteRanges[range] = { total: 0, successful: 0 };
+        }
+        minuteRanges[range].total++;
+        if (play.shotOutcome === 'Goal') {
+          minuteRanges[range].successful++;
+        }
+      });
+
+      const minuteSuccessData = Object.keys(minuteRanges).map(range => ({
+        x: parseInt(range) + 5, // Center of range
+        y: (minuteRanges[range].successful / minuteRanges[range].total) * 100,
+        total: minuteRanges[range].total,
+        successful: minuteRanges[range].successful
+      }));
+
+      minuteSuccessChart = new Chart(ctx, {
+        type: 'scatter',
+        data: {
+          datasets: [{
+            label: 'Success Rate by Minute',
+            data: minuteSuccessData,
+            backgroundColor: 'rgba(255, 99, 132, 0.6)',
+            borderColor: 'rgba(255, 99, 132, 1)',
+            pointRadius: 6,
+            pointHoverRadius: 8
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: {
+              callbacks: {
+                title: function(context) {
+                  const point = context[0].raw;
+                  return `Minute ${point.x} Range`;
+                },
+                label: function(context) {
+                  const point = context[0].raw;
+                  return [
+                    `Success Rate: ${point.y.toFixed(1)}%`,
+                    `Total Shots: ${point.total}`,
+                    `Successful: ${point.successful}`
+                  ];
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Match Minute'
+              },
+              min: 0,
+              max: 90
+            },
+            y: {
+              title: {
+                display: true,
+                text: 'Success Rate (%)'
+              },
+              min: 0,
+              max: 100
+            }
+          }
+        }
+      });
+    }
+
+
+    // Event listeners for filtering
+    document.getElementById('opponentFilter').addEventListener('change', renderAllCharts);
+    document.getElementById('phaseFilter').addEventListener('change', renderAllCharts);
+    document.getElementById('contextFilter').addEventListener('change', renderAllCharts);
+
+    // Load data when page loads
+    document.addEventListener('DOMContentLoaded', loadComprehensiveData);
+  </script>
+
+</body>
+</html>
