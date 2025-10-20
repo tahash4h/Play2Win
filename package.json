@@ -2,6 +2,9 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
-    "openai": "^6.3.0"
+    "express-session": "^1.18.2",
+    "openai": "^6.3.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
