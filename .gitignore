@@ -4,7 +4,7 @@ generate_dataset.py
 
 .gitignore
 
-#match_data.csv
+match_data.csv
 
 .env
 
