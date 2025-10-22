@@ -58,7 +58,7 @@ Each season cycles through all 20 opponent teams, ensuring consistent representa
 
 ### **Shot Analysis**
 - **Shot Attempt**: Whether the play involved a shot (Yes/No)
-- **Shot Distance**: Distance from goal in yards (5-30, only for shot attempts)
+- **Shot Distance**: Distance from goal in meters 
 - **Shot Outcome**: Result of the shot attempt
   - `Goal`: Successfully scored
   - `Missed`: Shot went wide or over
