@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Soccer Predictor Prompt</title>
+    <style>
+        /* General Body and Layout Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        /* Main App Container (Mimicking a data panel) */
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px; /* Wider for more text content */
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #004d40; /* Dark Teal */
+            color: white;
+            padding: 18px 25px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: 700;
+            border-bottom: 4px solid #00c853; /* Bright Green accent */
+        }
+
+        /* Navigation Buttons (e.g., "New Prediction", "Log out") */
+        .nav-buttons {
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #fcfcfc;
+        }
+
+        .nav-buttons button {
+            background-color: #00796b; /* Slightly lighter teal */
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        .nav-buttons button:hover {
+            background-color: #006056;
+        }
+
+        .nav-buttons button:active {
+            transform: scale(0.98);
+        }
+
+        /* Input and Form Styling for Prediction Query */
+        .input-section {
+            padding: 25px 30px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        #researcherQuery {
+            width: calc(100% - 22px); /* Account for padding */
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #b0b0b0;
+            border-radius: 8px;
+            font-size: 1.05em;
+            resize: vertical; /* Allow vertical resizing */
+            min-height: 80px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        #researcherQuery:focus {
+            border-color: #00c853;
+            box-shadow: 0 0 0 2px rgba(0, 200, 83, 0.2);
+            outline: none;
+        }
+
+        #generatePredictionButton {
+            background-color: #00c853; /* Bright Green */
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 700;
+            transition: background-color 0.3s, transform 0.1s;
+            width: 100%;
+            letter-spacing: 0.5px;
+        }
+
+        #generatePredictionButton:hover {
+            background-color: #00a044;
+        }
+
+        #generatePredictionButton:active {
+            transform: scale(0.99);
+        }
+
+        /* Prediction Output Area */
+        .prediction-output {
+            padding: 25px 30px;
+            min-height: 250px; /* Ensure sufficient space */
+            background-color: #f9fdfb; /* Very light green tint */
+        }
+
+        .prediction-output h3 {
+            color: #004d40;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 12px;
+            margin-top: 0;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+
+        #aiPredictionResult {
+            background-color: #ffffff;
+            padding: 20px;
+            border-left: 6px solid #00c853; /* Stronger accent line */
+            border-radius: 6px;
+            white-space: pre-wrap; /* Preserves formatting from AI response */
+            color: #444;
+            font-size: 1.1em;
+            line-height: 1.7;
+            box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.05);
+            min-height: 120px;
+        }
+
+        /* Loading Indicator */
+        .loading {
+            text-align: center;
+            color: #004d40;
+            font-style: italic;
+            padding: 15px;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            What Researchers Predict About...
+        </header>
+
+       
+
+            
+            <div id="aiPredictionResult">
+                Here, the AI will provide a detailed, research-oriented analysis based on your query.
+                It will explain the potential outcomes, underlying factors, and the reasoning behind its predictions, 
+                adhering to the persona of a well-informed researcher or analyst.
+                
+                Example structure:
+                
+                **Query:** [Your specific question]
+                **Research Analysis:** [In-depth discussion, evidence, trends]
+                **Hypothesis/Prediction:** [Clear statement of expected outcome or finding]
+                **Caveats:** [Limitations or factors that could alter the prediction]
+            </div>
+            <p class="loading" id="loadingIndicator">Generating in-depth insights... please wait.</p>
+        </div>
+    </div>
+
+    <script>
+        // *** IMPORTANT: THIS SCRIPT ONLY HANDLES FRONT-END LOGIC. ***
+        // *** YOU MUST REPLACE THE FUNCTION BELOW WITH YOUR OWN SERVER-SIDE/AJAX/FETCH CALL TO THE OPENAI API. ***
+        
+        const generatePredictionButton = document.getElementById('generatePredictionButton');
+        const researcherQuery = document.getElementById('researcherQuery');
+        const aiPredictionResult = document.getElementById('aiPredictionResult');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+
+        generatePredictionButton.addEventListener('click', async () => {
+            const userQuestion = researcherQuery.value.trim();
+            if (userQuestion === "") {
+                alert("Please enter a research question or topic!");
+                return;
+            }
+
+            // 1. Show Loading State
+            aiPredictionResult.innerHTML = ''; // Clear previous results
+            loadingIndicator.style.display = 'block';
+            generatePredictionButton.disabled = true;
+
+            // 2. CONSTRUCT THE PRE-WRITTEN PROMPT
+            // This is the core instruction sent to the AI, tailored for a research perspective.
+            const preWrittenPrompt = `
+                Act as an expert sports researcher and data scientist specializing in soccer analytics. 
+                Your task is to analyze the following research question/topic and provide comprehensive insights and predictions.
+                Your response MUST strictly adhere to this format, including the exact bolded labels:
+                
+                **Query:** ${userQuestion}
+                **Research Analysis:** Provide a detailed, evidence-based analysis (3-5 paragraphs) covering relevant statistical trends, tactical implications, historical data, and any contextual factors. Use objective language.
+                **Hypothesis/Prediction:** Based on your analysis, state a clear hypothesis or prediction regarding the outcome, trend, or answer to the query. Justify it concisely.
+                **Caveats:** Briefly mention any significant limitations, assumptions made, or external factors that could influence or alter this prediction/finding.
+            `;
+
+            console.log("Prompt sent to AI:", preWrittenPrompt);
+
+            // 3. AI/API CALL - **THIS SECTION NEEDS YOUR SERVER/API LOGIC**
+            /*
+            * In a real application, you would use 'fetch' or 'XMLHttpRequest' here 
+            * to send 'preWrittenPrompt' to your backend server, which would then 
+            * call the OpenAI API.
+            *
+            * Example of a placeholder response:
+            */
+            await new Promise(resolve => setTimeout(resolve, 3000)); // Simulate 3-second API delay
+
+            const mockAIResponse = `
+                **Query:** ${userQuestion}
+                **Research Analysis:** The impact of VAR on penalty decisions is a complex area. Initial research indicated a slight increase in penalty awards due to retrospective reviews of incidents missed by the on-field referee. However, over time, as referees and players adapted, the rate stabilized. There's also evidence to suggest that VAR has reduced the number of 'soft' penalties given, as the scrutiny is higher. Furthermore, the implementation consistency across different leagues and even within a single league has been a subject of debate, impacting the perceived fairness and accuracy of decisions. Our analysis of the last three Premier League seasons shows a trend of initial increase, followed by a slight decrease, then stabilization in penalty awards directly attributed to VAR interventions.
+                **Hypothesis/Prediction:** VAR has led to a marginal net increase in correctly awarded penalties but has also introduced inconsistencies in interpretation, leading to ongoing debate rather than definitive clarity on penalty decisions. The trend suggests a plateauing effect as the system matures.
+                **Caveats:** This prediction is based on publicly available data. The subjective nature of 'clear and obvious error' criteria can influence outcomes. Consistency of VAR implementation and evolving referee training also play a crucial role.
+            `;
+            
+            // 4. Update UI with Result
+            loadingIndicator.style.display = 'none';
+            generatePredictionButton.disabled = false;
+            aiPredictionResult.innerHTML = mockAIResponse.replace(/\n/g, '<br>'); // Display result, converting newlines for HTML
+        });
+    </script>
+</body>
+</html>
