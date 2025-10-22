@@ -1,10 +1,10 @@
 :root {
-  --primary: #1a73e8;
-  --primary-hover: #0f5bd9;
+  --primary: #222222;
+  --primary-hover: #444444;
   --secondary: #ffffff;
-  --background: #f2f5ff;
-  --text-primary: #1f1f1f;
-  --text-secondary: #5f6c7b;
+  --background: #f5f5f5;
+  --text-primary: #111111;
+  --text-secondary: #888888;
 }
 
 * {
@@ -28,9 +28,9 @@ body {
   background: var(--secondary);
   padding: 3rem 4rem;
   border-radius: 18px;
-  box-shadow: 0 18px 45px rgba(17, 23, 58, 0.18);
   max-width: 400px;
   width: 90%;
+  box-shadow: none;
 }
 
 .auth-container h1 {
@@ -54,27 +54,28 @@ body {
   display: block;
   text-decoration: none;
   padding: 0.85rem 1rem;
-  border-radius: 50px;
+  border-radius: 8px;
   background: var(--primary);
-  color: #ffffff;
+  color: #fff;
   font-weight: 600;
   letter-spacing: 0.02em;
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .auth-button:hover {
-  background: var(--primary-hover);
+  background: #f5f5f5;
+  color: var(--primary);
   transform: translateY(-2px);
 }
 
 .auth-button.secondary {
-  background: transparent;
+  background: #f5f5f5;
   color: var(--primary);
-  border: 2px solid var(--primary);
+  border: none;
 }
 
 .auth-button.secondary:hover {
-  color: #ffffff;
+  color: #fff;
   background: var(--primary);
 }
 
